@@ -7,6 +7,7 @@
 import os
 import os.path
 import sys
+import chardet
 
 def convert_code(filename, in_enc = 'gbk', out_enc = 'utf-8'):
     """
@@ -21,12 +22,15 @@ def convert_code(filename, in_enc = 'gbk', out_enc = 'utf-8'):
         f = open(filename, 'rb')
         data = f.read()
         f.close()
+        in_enc = chardet.detect(data)['encoding']
+        # print in_enc
         new_contert = data.decode(in_enc, 'ignore')
         new_data = new_contert.encode(out_enc, 'ignore')
         f = open(filename, 'w')
         f.write(new_data)
         f.close()
         print 'Success:', filename, 'converted from', in_enc, 'to', out_enc, '!'
+        print
     except:
         print 'Error, fail convert:', filename
         print
