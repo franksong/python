@@ -124,6 +124,14 @@ argv_dict = {
 log_levels = ['50', '40', '30', '20', '10']
 argv_list = sys.argv[1:]
 
+def init(argv_list):
+    """
+    
+    Arguments:
+    - `argv_list`:
+    """
+    
+
 print argv_list # test for output argv
 if len(argv_list) % 2 != 0:
     if '--testself' in argv_list:
