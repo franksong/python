@@ -151,6 +151,11 @@ def init(argv_list):
     argv_dict['-l'] = int(re.search('[0-9]', argv_dict['-l']).group(0))
     argv_dict['--thread'] = int(argv_dict['--thread'])
 
+def main():
+    """
+    """
+    
+
 
 logfile = argv_dict['-f']
 log_level = log_levels[argv_dict['-l']-1]
