@@ -15,6 +15,8 @@ import sqlite3
 import string
 import logging
 import chardet
+import MySQLdb
+
 #sys.setdefaultencoding('utf-8')
 
 class GetUrls(SGMLParser):
@@ -128,14 +130,14 @@ if len(argv_list) % 2 != 0:
         argv_list.remove('--testself')
         argv_dict['--testself'] = True
     else:
-        print 'wrong argv.'
+        print 'wrong args.'
         sys.exit()
 
 while len(argv_list):
     value = argv_list.pop()
     key = argv_list.pop()
     if not argv_dict.has_key(key):
-        print 'wrong argv!'
+        print 'wrong args!'
         sys.exit()
     argv_dict[key] = value
 argv_dict['-d'] = int(argv_dict['-d'])
