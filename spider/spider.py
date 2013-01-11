@@ -123,6 +123,7 @@ argv_dict = {
 #                  'logging.INFO', 'logging.DEBUG']
 log_levels = ['50', '40', '30', '20', '10']
 argv_list = sys.argv[1:]
+print argv_list # test for output argv
 
 def init(argv_list):
     """
@@ -130,27 +131,25 @@ def init(argv_list):
     Arguments:
     - `argv_list`:
     """
-    
-
-print argv_list # test for output argv
-if len(argv_list) % 2 != 0:
-    if '--testself' in argv_list:
-        argv_list.remove('--testself')
+    if len(argv_list) % 2 != 0:
+        if '--testself' in argv_list:
+            argv_list.remove('--testself')
         argv_dict['--testself'] = True
     else:
         print 'wrong args.'
         sys.exit()
 
-while len(argv_list):
-    value = argv_list.pop()
-    key = argv_list.pop()
-    if not argv_dict.has_key(key):
-        print 'wrong args!'
-        sys.exit()
+    while len(argv_list):
+        value = argv_list.pop()
+        key = argv_list.pop()
+        if not argv_dict.has_key(key):
+            print 'wrong args!'
+            sys.exit()
+
     argv_dict[key] = value
-argv_dict['-d'] = int(argv_dict['-d'])
-argv_dict['-l'] = int(re.search('[0-9]', argv_dict['-l']).group(0))
-argv_dict['--thread'] = int(argv_dict['--thread'])
+    argv_dict['-d'] = int(argv_dict['-d'])
+    argv_dict['-l'] = int(re.search('[0-9]', argv_dict['-l']).group(0))
+    argv_dict['--thread'] = int(argv_dict['--thread'])
 
 
 logfile = argv_dict['-f']
