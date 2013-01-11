@@ -1,0 +1,167 @@
+INFO:root:Started
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started
+INFO:root:Started
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
