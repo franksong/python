@@ -80,7 +80,7 @@ def save_parser(data, sql):
     text = html_text(data)
     statement = 'INSERT INTO html VALUES ("' + text +'")'
     try:
-        sql.execute('INSERT INTO html VALUES (?)', text)
+        sql.execute(statement)
     except:
         logging.error('INSERT html data error!')
         print 'INSERT ERROR!!!'
