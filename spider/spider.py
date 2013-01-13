@@ -77,11 +77,10 @@ def save_parser(data, sql):
     #f.write(data)
     #f.write('Finished')
     #f.close()
-    #text = html_text(data)
-    text = (data,)
-    #statement = 'INSERT INTO html VALUES (?)', text
+    text = html_text(data)
+    statement = 'INSERT INTO html VALUES ("' + text +'")'
     try:
-        sql.execute('INSERT INTO html (data) VALUES (?)',(data,))
+        sql.execute('INSERT INTO html VALUES (?)', text)
     except:
         logging.error('INSERT html data error!')
         print 'INSERT ERROR!!!'
@@ -104,26 +103,11 @@ def do_get_con(deep, url_list, sql):
         return 0
     result_urls = []
     for url in get_urls:
-        if url not in finished_urls:
+        if url not in url_list:
             result_urls.append(url)
-            finished_urls.append(url)
+            url_list.append(url)
     return do_get_con(deep, result_urls, sql)
 
-argv_dict = {
-    '-u': 'http://www.qq.com',
-    '-d': 3,
-    '-f': 'spider.log',
-    '-l': '4',
-    '--thread': 10,
-    '--dbfile': '/home/frank/mywork/html/spider.db',
-    '--key': False,
-    '--testself': False
-    }
-#log_levels = ['logging.CRITICAL', 'logging.ERROR', 'logging.WARNING', \
-#                  'logging.INFO', 'logging.DEBUG']
-log_levels = ['50', '40', '30', '20', '10']
-argv_list = sys.argv[1:]
-print argv_list # test for output argv
 
 def init(argv_list):
     """
@@ -134,10 +118,10 @@ def init(argv_list):
     if len(argv_list) % 2 != 0:
         if '--testself' in argv_list:
             argv_list.remove('--testself')
-        argv_dict['--testself'] = True
-    else:
-        print 'wrong args.'
-        sys.exit()
+            argv_dict['--testself'] = True
+        else:
+            print 'wrong args.'
+            sys.exit()
 
     while len(argv_list):
         value = argv_list.pop()
@@ -145,38 +129,46 @@ def init(argv_list):
         if not argv_dict.has_key(key):
             print 'wrong args!'
             sys.exit()
+        argv_dict[key] = value
 
-    argv_dict[key] = value
     argv_dict['-d'] = int(argv_dict['-d'])
     argv_dict['-l'] = int(re.search('[0-9]', argv_dict['-l']).group(0))
     argv_dict['--thread'] = int(argv_dict['--thread'])
+    logging.basicConfig(filename = argv_dict['-f'], level = int(log_levels[argv_dict['-l']-1]))
+    logging.info('Started:')
 
 def main():
     """
     """
+    global url_list
+    url_list = []
+    init(argv_list)
+    url_list.append(argv_dict['-u'])
+    logging.debug(url_list)
+    conn = sqlite3.connect(argv_dict['--dbfile'])
+    cur_sql = conn.cursor()
+    cur_sql.execute('CREATE TABLE html (data LONGBLOB)')
+    do_get_con(argv_dict['-d'], url_list, cur_sql)
+    conn.commit()
+    conn.close()
+    logging.debug(argv_dict)
+    logging.info('Finished\n')
     
-
-
-logfile = argv_dict['-f']
-log_level = log_levels[argv_dict['-l']-1]
-logging.basicConfig(filename = logfile, level = int(log_level))
-logging.info('Started')
-
-url_list = []
-url_list.append(argv_dict['-u'])
-logging.debug(url_list)
-
-global finished_urls
-finished_urls = []
-finished_urls.extend(url_list)
-
-conn = sqlite3.connect(argv_dict['--dbfile'])
-cur_sql = conn.cursor()
-cur_sql.execute('CREATE TABLE html (data BLOB)')
-do_get_con(argv_dict['-d'], url_list, cur_sql)
-conn.commit()
-conn.close()
-logging.debug(argv_dict)
-logging.info('Finished\n')
-
-print 'Done'
+if __name__ == '__main__':
+    argv_dict = {
+        '-u': 'http://www.qq.com',
+        '-d': 3,
+        '-f': 'spider.log',
+        '-l': '4',
+        '--thread': 10,
+        '--dbfile': '/home/frank/mywork/html/spider.db',
+        '--key': False,
+        '--testself': False
+        }
+    #log_levels = ['logging.CRITICAL', 'logging.ERROR', 'logging.WARNING', \
+    #                  'logging.INFO', 'logging.DEBUG']
+    log_levels = ['50', '40', '30', '20', '10']
+    argv_list = sys.argv[1:]
+    print argv_list # test for output argv
+    main()
+    print 'Done'

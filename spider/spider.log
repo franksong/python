@@ -1,4 +1,4 @@
-INFO:root:Started
+INFO:root:Started:
 INFO:root:threadpool addjob: ('http://www.qq.com',), {}
 INFO:root:Begin: http://www.qq.com
 INFO:root:threadpool work queue empty!
@@ -16,7 +16,7 @@ INFO:root:All threads are completed.
 ERROR:root:INSERT html data error!
 INFO:root:Finished
 
-INFO:root:Started
+INFO:root:Started:
 INFO:root:threadpool addjob: ('http://www.qq.com',), {}
 INFO:root:Begin: http://www.qq.com
 INFO:root:threadpool work queue empty!
@@ -34,7 +34,1935 @@ INFO:root:All threads are completed.
 ERROR:root:INSERT html data error!
 INFO:root:Finished
 
-INFO:root:Started
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+INFO:root:Finished
+
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+INFO:root:Finished
+
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+INFO:root:Finished
+
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+INFO:root:Finished
+
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+INFO:root:threadpool addjob: ('http://news.qq.com/mobile/',), {}
+INFO:root:threadpool addjob: ('http://3gqq.qq.com',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/itime/',), {}
+INFO:root:threadpool addjob: ('javascript:void(0);',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/map/',), {}
+INFO:root:threadpool addjob: ('http://support.qq.com/discuss/806_1.shtml',), {}
+INFO:root:threadpool addjob: ('http://kf.qq.com/index_login.html',), {}
+INFO:root:threadpool addjob: ('http://aq.qq.com/ss?source_id=2384',), {}
+INFO:root:threadpool addjob: ('http://kf.qq.com/special_auto/qqbz.html',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/history/',), {}
+INFO:root:threadpool addjob: ('http://www.pengyou.com',), {}
+INFO:root:threadpool addjob: ('http://mail.qq.com',), {}
+INFO:root:threadpool addjob: ('http://qzone.qq.com',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com?pref=qqcom.home.weiboIN',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com?pref=qqcom.home.weiboenter',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/messages/inbox#pmtid=?pref=qqcom.home.wbinbox',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/at?pref=qqcom.home.wbat',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/follower.php?pref=qqcom.home.wbfollow',), {}
+INFO:root:threadpool addjob: ('http://www.soso.com',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://pp.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://mil.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://weather.news.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/tv/',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/variety/',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/paike/',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/star/',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/movie/',), {}
+INFO:root:threadpool addjob: ('http://yue.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://trip.elong.com/',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/',), {}
+INFO:root:Begin: http://news.qq.com/mobile/
+INFO:root:Begin: http://3gqq.qq.com
+INFO:root:Begin: http://www.qq.com/itime/
+INFO:root:Begin: javascript:void(0);
+WARNING:root:wrong url: javascript:void(0);
+INFO:root:Begin: http://www.qq.com/map/
+INFO:root:Begin: http://support.qq.com/discuss/806_1.shtml
+INFO:root:Begin: http://kf.qq.com/index_login.html
+INFO:root:Begin: http://aq.qq.com/ss?source_id=2384
+INFO:root:Begin: http://kf.qq.com/special_auto/qqbz.html
+INFO:root:Begin: http://www.qq.com/history/
+INFO:root:threadpool addjob: ('http://c.l.qq.com/lclick?seq=20120810000273&loc=hdjc',), {}
+INFO:root:threadpool addjob: ('http://book.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://yc.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://abroad.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://www.paipai.com/?PTAG=10001.18.2',), {}
+INFO:root:threadpool addjob: ('http://blog.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://cul.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://gd.qq.com',), {}
+INFO:root:threadpool addjob: ('http://sh.qq.com',), {}
+INFO:root:threadpool addjob: ('http://cq.qq.com',), {}
+INFO:root:threadpool addjob: ('http://xian.qq.com',), {}
+INFO:root:threadpool addjob: ('http://cd.qq.com',), {}
+INFO:root:threadpool addjob: ('http://fj.qq.com',), {}
+INFO:root:threadpool addjob: ('http://henan.qq.com',), {}
+INFO:root:threadpool addjob: ('http://hb.qq.com',), {}
+INFO:root:threadpool addjob: ('http://hn.qq.com',), {}
+INFO:root:threadpool addjob: ('http://zj.qq.com',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/stock/',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/hk/',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/fund/',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/nba/',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/isocce/England.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/lottery/',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://luxury.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://health.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/',), {}
+INFO:root:Begin: http://www.pengyou.com
+INFO:root:threadpool addjob: ('http://tech.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://digi.tech.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://digi.tech.qq.com/mobile/',), {}
+INFO:root:threadpool addjob: ('http://hea.qq.com',), {}
+INFO:root:threadpool addjob: ('http://games.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://comic.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://ac.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://gongyi.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://kid.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://android.myapp.com/activity/goodapp/index.jsp?actid=133&g_f=991023',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/zt2013/wumai/index.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000799.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000879.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000634.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000592.htm',), {}
+INFO:root:threadpool addjob: ('http://health.qq.com/a/20130113/000002.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000177.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000852.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000883.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000070.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000519.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000773.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000841.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000595.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000847.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000788.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000770.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000849.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000450.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000166.htm',), {}
+INFO:root:threadpool addjob: ('http://android.myapp.com/activity/goodapp/index.jsp?actid=133&g_f=991022',), {}
+INFO:root:threadpool addjob: ('http://gongyi.qq.com/zt2012/xinyi2012/',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/zt2011/oneday/1109.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000186.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://view.news.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://view.news.qq.com/zt2013/stars/index.htm',), {}
+INFO:root:threadpool addjob: ('http://view.news.qq.com/index/zhuanti/zt_more.htm',), {}
+INFO:root:threadpool addjob: ('http://view.news.qq.com/zt2013/DrivingText/index.htm',), {}
+INFO:root:threadpool addjob: ('http://view.news.qq.com/a/20130113/000001.htm',), {}
+INFO:root:threadpool addjob: ('http://history.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://history.qq.com/a/20130113/000004.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/cjgc/index.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/zt2013/cjgc/dz.htm',), {}
+INFO:root:threadpool addjob: ('http://hanhan.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://hanhan.qq.com/hanhan/one/one217.htm#page1',), {}
+INFO:root:threadpool addjob: ('http://view.news.qq.com/zt2013/ysdjt195/index.htm',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/news/index.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=z0011zuwq7t',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=s00110e5b7w',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=l0011iodwxf',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=u0011onrazm',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=f0011e6jzq7',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=d0011kwz6qh',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=e0011xjgy7u',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/t/t3fb299gmlmjvrk.html?vid=n0109pog13d',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/sports/index.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/p/phi3gezlsopn6k2.html?vid=n0011mkzpeo',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/z/z2nubq8rbh5i5zr.html?vid=l0011sejh94',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/ent/',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=e0011xql1sj',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=d0011h0iwqp',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/topic/2012/styy.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=l0011xn82ev',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=i00119739tp',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=t00113ed2uk',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000497.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000093.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000188.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000191.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000123.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000120.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000116.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/products/portfolio/',), {}
+INFO:root:threadpool addjob: ('http://stockhtm.finance.qq.com/hqing/zhishu/000001.htm',), {}
+INFO:root:threadpool addjob: ('http://stock.qq.com/hkHSI',), {}
+INFO:root:threadpool addjob: ('http://stockhtm.finance.qq.com/astock/ggcx/DJI.htm',), {}
+INFO:root:threadpool addjob: ('#',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000508.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000617.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130113/000603.htm',), {}
+INFO:root:threadpool addjob: ('http://stockapp.finance.qq.com/pstock',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/isocce/Spain.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/cba/',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000472.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000514.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000513.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000262.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/isocce/Italy.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/zt2012/2013master/index.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/tennis/2013ao/',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000455.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000117.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000373.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000015.htm',), {}
+INFO:root:threadpool addjob: ('http://c.t.qq.com/i/918',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/218224102505740',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/6/66sxj3jma0h4qlp.html?vid=b00115mmzpl',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/photo/',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000065.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130112/000440.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/a/20130113/000104.htm',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/jingcai/',), {}
+INFO:root:threadpool addjob: ('http://sports.qq.com/jingcai/#!/time/20130113/id/3010/sort/1/',), {}
+INFO:root:threadpool addjob: ('http://im.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://mail.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://pc.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://zc.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://vip.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://pcmgr.qq.com/?ADTAG=tr.pcmgr.qqcom.QQCOM',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/?from=12',), {}
+INFO:root:threadpool addjob: ('http://qzone.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://www.pengyou.com/',), {}
+INFO:root:threadpool addjob: ('http://show.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://photo.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://y.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://weixin.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://mq.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://mobile.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://mb.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://cgi.bl.qq.com/enterGame4index4ad.s/?ADTAG=bl.qq.index.gd&channel=10705',), {}
+INFO:root:threadpool addjob: ('http://www.myapp.com/?g_f=990371',), {}
+INFO:root:threadpool addjob: ('http://qqgame.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://17roco.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://7.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://www.3366.com/',), {}
+INFO:root:threadpool addjob: ('http://s3.qq.com/act/a20120807page/pkg.htm?via=qqvip_link&ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://ss.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('http://dh.qq.com/cp/a20130104dhsx/index.htm?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('http://cf.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://dnf.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://lol.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://speed.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://x5.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation',), {}
+INFO:root:threadpool addjob: ('http://nz.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('http://nba2k.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('http://yl.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('http://sg.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('http://qqhx.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('http://xy.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('http://game.qq.com?ADTAG=media.innerenter.qqcom.indexnavigation',), {}
+INFO:root:threadpool addjob: ('https://www.tenpay.com/',), {}
+INFO:root:threadpool addjob: ('http://www.51buy.com?YTAG=0.224800001300000',), {}
+INFO:root:threadpool addjob: ('http://www.paipai.com/?PTAG=10001.18.1',), {}
+INFO:root:threadpool addjob: ('http://pay.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://cb.qq.com/?attach=200_1000_10090&QQ_from=200_1000_10090',), {}
+INFO:root:threadpool addjob: ('http://meishi.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://c.t.qq.com/i/1189?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/214173032905447?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/177460057896092?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/240108117898213?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/216226108012186?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/263208106299127?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/212324029404211?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/172728043055718?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/238708098692119?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/168228017016754?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/216921116240631?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/204171012970319?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/206371063527050?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/133399026235283?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/83920033850368?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/180417100201657?pgv_ref=qqcom.index.mb.djak',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000002.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000060.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000118.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000138.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000029.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000039.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000097.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000101.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/picture.shtml',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000011.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000014.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000006.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000010.htm',), {}
+INFO:root:threadpool addjob: ('http://123.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000034.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/zt2012/talent4/index.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000064.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000027.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000055.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/tv/',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000026.htm',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/weibo/',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/178959054850444',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/i/isdck90a06zvxza.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/o/oyma5hdyia8e9rb.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/movie/index.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/b/bpvff33i8z71li2.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/j/jysh73hacpf73vg.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/n/nvgborp17w45i9c.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/tv/index.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/g/g8c0xxx0xxvv4ol.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/o/ocura55u06iyv6c.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/e/e7oxy0nytxnot96.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/variety/index.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/z/zb70mr0zr6kby7f.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/5/5b10pjvlj5set1p.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/5/58c5qixso9h4m06.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cartoon/',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/j/jxj5pth9h3a71sg.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/cover/l/llhmoghvxl4bh7g.html',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/mytv/index.html',), {}
+INFO:root:threadpool addjob: ('http://tech.qq.com/a/20130113/000012.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://tech.qq.com/a/20130113/000004.htm',), {}
+INFO:root:threadpool addjob: ('http://tech.qq.com/a/20130113/000008.htm',), {}
+INFO:root:threadpool addjob: ('http://tech.qq.com/a/20130113/000030.htm',), {}
+INFO:root:threadpool addjob: ('http://tech.qq.com/a/20130113/000003.htm',), {}
+INFO:root:threadpool addjob: ('http://digi.tech.qq.com/zt2013/digitech2013/index.htm',), {}
+INFO:root:threadpool addjob: ('http://digi.tech.qq.com/a/20130113/000065.htm',), {}
+INFO:root:threadpool addjob: ('http://digi.tech.qq.com/a/20130113/000058.htm',), {}
+INFO:root:threadpool addjob: ('http://digi.tech.qq.com/a/20130113/000054.htm',), {}
+INFO:root:threadpool addjob: ('http://digi.tech.qq.com/a/20130113/000055.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000004.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/buycar/homemarket/2012_index.htm',), {}
+INFO:root:threadpool addjob: ('http://k.t.qq.com/k/%25E5%2585%25A8%25E5%259B%25BD%25E8%25BD%25A6%25E5%25B8%2582%25E8%2581%2594%25E6%2592%25AD',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/news/index.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000029.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130111/000191.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/buycar/',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000006.htm',), {}
+INFO:root:threadpool addjob: ('http://data.auto.qq.com/car_video/index.shtml',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000018.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000021.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000041.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/zt2013/xiaoqiang104/index.htm',), {}
+INFO:root:threadpool addjob: ('http://data.auto.qq.com/car_public/1/hq.shtml',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000050.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000051.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000052.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/autophoto/index.htm',), {}
+INFO:root:threadpool addjob: ('http://data.auto.qq.com/car_public/1/piclib_disp_nl.shtml#cqpid=10371&pid=1061827',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/club/buycar.htm',), {}
+INFO:root:threadpool addjob: ('http://trip.elong.com/xuexiang/tupian/135323.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/68901/pictorial/a1i28vcd/3401675.html#main',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5204892/pictorial/a1i996h7/3403924.html#main',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/567520/tour/a0abefpc.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/567520/tour/a0a4ekk9.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5204892/tour/a1id97g4.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5229371/tour/a1ie9523.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5205850/pictorial/a1i490k2/3402064.html#main',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5212048/pictorial/a1ia91b2/3402202.html#main',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/421505/tour/a1i898i8.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5236029/tour/a1id98o4.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5245482/tour/a1i08vv4.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5263281/tour/a1i69145.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/44060/tour/a1i88vl5.html',), {}
+INFO:root:threadpool addjob: ('http://lvyou.elong.com/5260280/tour/a1i48o96.html',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000048.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000012.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000059.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/zt2013/2013xzyp/index.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000022.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000013.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/calculator/homelink2.htm',), {}
+INFO:root:threadpool addjob: ('http://db.house.qq.com/bj_9395/disp_pic.shtml#type=6&pid=2322&hx=0',), {}
+INFO:root:threadpool addjob: ('http://db.house.qq.com/bj_9563/disp_pic.shtml#type=6&pid=40483&hx=0',), {}
+INFO:root:threadpool addjob: ('http://db.house.qq.com/bj_34996/disp_pic.shtml#type=6&pid=131985&hx=0',), {}
+INFO:root:threadpool addjob: ('http://db.house.qq.com/bj_100846/disp_pic.shtml#type=6&pid=159432&hx=0',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000005.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000006.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/newhouse/',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000039.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000028.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/zhuanti/lpdglist.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000030.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000019.htm\r\n',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/newhouse/drbj.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000032.htm',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000024.htm',), {}
+INFO:root:threadpool addjob: ('http://sh.house.qq.com',), {}
+INFO:root:threadpool addjob: ('http://sh.house.qq.com/a/20130113/000011.htm',), {}
+INFO:root:threadpool addjob: ('http://sh.house.qq.com/a/20130113/000018.htm',), {}
+INFO:root:threadpool addjob: ('http://sh.house.qq.com/a/20130113/000003.htm',), {}
+INFO:root:threadpool addjob: ('http://sh.house.qq.com/a/20130113/000001.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://sh.house.qq.com/a/20130113/000002.htm',), {}
+INFO:root:threadpool addjob: ('http://cq.house.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://cq.qq.com/a/20130113/000054.htm',), {}
+INFO:root:threadpool addjob: ('http://cq.qq.com/a/20130113/000055.htm',), {}
+INFO:root:threadpool addjob: ('http://cq.qq.com/a/20130111/000317.htm',), {}
+INFO:root:threadpool addjob: ('http://gd.qq.com/house/',), {}
+INFO:root:threadpool addjob: ('http://gd.qq.com/zt2013/zkfh/index.htm',), {}
+INFO:root:threadpool addjob: ('http://sz.house.qq.com/zt2013/lsqs053/index.htm',), {}
+INFO:root:threadpool addjob: ('http://gz.house.qq.com/a/20130113/000016.htm',), {}
+INFO:root:threadpool addjob: ('http://gz.house.qq.com/a/20130113/000011.htm',), {}
+INFO:root:threadpool addjob: ('http://gz.house.qq.com/a/20130113/000014.htm',), {}
+INFO:root:threadpool addjob: ('http://xian.house.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://xian.house.qq.com/a/20130110/000027.htm',), {}
+INFO:root:threadpool addjob: ('http://xian.house.qq.com/a/20130111/000001.htm',), {}
+INFO:root:threadpool addjob: ('http://xian.house.qq.com/a/20130111/000016.htm',), {}
+INFO:root:threadpool addjob: ('http://cd.house.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://cd.house.qq.com/a/20130111/000041.htm',), {}
+INFO:root:threadpool addjob: ('http://cd.house.qq.com/a/20130111/000037.htm',), {}
+INFO:root:threadpool addjob: ('http://cd.house.qq.com/a/20130111/000038.htm',), {}
+INFO:root:threadpool addjob: ('http://cd.house.qq.com/a/20130111/000040.htm',), {}
+INFO:root:threadpool addjob: ('http://fz.house.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://fz.house.qq.com/a/20130111/000005.htm',), {}
+INFO:root:threadpool addjob: ('http://fz.house.qq.com/a/20130110/000047.htm',), {}
+INFO:root:threadpool addjob: ('http://fz.house.qq.com/a/20130111/000002.htm',), {}
+INFO:root:threadpool addjob: ('http://henan.qq.com/house/',), {}
+INFO:root:threadpool addjob: ('http://henan.qq.com/zt/2012/kft9/',), {}
+INFO:root:threadpool addjob: ('http://henan.qq.com/a/20130111/000087.htm',), {}
+INFO:root:threadpool addjob: ('http://henan.qq.com/a/20130111/000130.htm',), {}
+INFO:root:threadpool addjob: ('http://wh.house.qq.com',), {}
+INFO:root:threadpool addjob: ('http://wh.house.qq.com/a/20130113/000001.htm',), {}
+INFO:root:threadpool addjob: ('http://wh.house.qq.com/a/20130113/000002.htm',), {}
+INFO:root:threadpool addjob: ('http://wh.house.qq.com/zt2013/dg018/index.htm',), {}
+INFO:root:threadpool addjob: ('http://cs.house.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://cs.house.qq.com/zt2013/xgdd/index.htm',), {}
+INFO:root:threadpool addjob: ('http://cs.house.qq.com/a/20130113/000003.htm',), {}
+INFO:root:threadpool addjob: ('http://cs.house.qq.com/a/20130113/000007.htm',), {}
+INFO:root:threadpool addjob: ('http://hz.house.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://hz.house.qq.com/a/20130112/000014.htm',), {}
+INFO:root:threadpool addjob: ('http://hz.house.qq.com/a/20130110/000066.htm',), {}
+INFO:root:threadpool addjob: ('http://hz.house.qq.com/a/20130110/000065.htm',), {}
+INFO:root:threadpool addjob: ('http://hz.house.qq.com/a/20130111/000033.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/nvphoto/photo.shtml',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/zhuanti2012/index.htm',), {}
+INFO:root:threadpool addjob: ('http://luxury.qq.com/zt2013/weekly/002.htm',), {}
+INFO:root:threadpool addjob: ('http://bella.qq.com',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/zt2013/editorspicks/index.htm',), {}
+INFO:root:threadpool addjob: ('http://bella.qq.com/index/headindex/showdiscovery?collect=%E6%90%AD%E9%85%8D&tag=+%E5%BC%BA%E5%8A%BF%E6%B0%94%E5%9C%BA%E5%A4%A7%E5%8C%85%E5%BD%93%E9%81%93',), {}
+INFO:root:threadpool addjob: ('http://luxury.qq.com/zt2012/fashionista/002.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000029.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/beauty/beauty.shtml',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000003.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000007.htm',), {}
+INFO:root:threadpool addjob: ('http://health.qq.com/a/20130113/000005.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/emo/emotio.shtml',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000043.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000048.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000017.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000018.htm',), {}
+INFO:root:threadpool addjob: ('http://history.news.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://mil.qq.com/mil_index.htm',), {}
+INFO:root:threadpool addjob: ('http://blog.qq.com/pic/',), {}
+INFO:root:threadpool addjob: ('http://blog.qq.com/qzone/622004691/1357890382.htm',), {}
+INFO:root:threadpool addjob: ('http://blog.qq.com/qzone/622007965/1357926532.htm',), {}
+INFO:root:threadpool addjob: ('http://blog.qq.com/qzone/120308730/1357928928.htm',), {}
+INFO:root:threadpool addjob: ('http://blog.qq.com/qzone/622006568/1357879773.htm',), {}
+INFO:root:threadpool addjob: ('http://dajia.qq.com/blog/200527064938751',), {}
+INFO:root:threadpool addjob: ('http://blog.qq.com/qzone/622009853/1357877178.htm',), {}
+INFO:root:threadpool addjob: ('http://history.qq.com/a/20130113/000003.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000189.htm',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/profile/',), {}
+INFO:root:threadpool addjob: ('http://cul.book.qq.com/a/20130106/000096.htm',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2524463',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2525852',), {}
+INFO:root:threadpool addjob: ('http://book.qq.com/zt2013/daideng/',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2529968',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2530079',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2521808',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2518285',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2527070',), {}
+INFO:root:threadpool addjob: ('http://book.qq.com/girl/index.htm',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2518965',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2495507',), {}
+INFO:root:threadpool addjob: ('http://book.qq.com/man/index.htm',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2328234',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2484540',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2514475',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2517724',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2525859',), {}
+INFO:root:threadpool addjob: ('http://bookapp.book.qq.com/origin/book/?workid=2527905',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/gaokao/',), {}
+INFO:root:threadpool addjob: ('{clickurl}',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/abroad/',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/a/20130113/000017.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/zt2012/gzslx/index.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/zt2013/2013wsl/index.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/zt2012/2013gjgwyks/index.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/zt2012/graduate2013/index.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/a/20130111/000188.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/a/20130111/000142.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/a/20130111/000099.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/zt2013/Collegelist/index.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/photo/photo.shtml',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/zt2012/2012hxzg/wahy.htm',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/x/yqhj.htm',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/qqedu',), {}
+INFO:root:threadpool addjob: ('http://edu.qq.com/ssjy/16.htm',), {}
+INFO:root:threadpool addjob: ('http://v.qq.com/kid/cover/5/50qamlnlgnd45xw.html',), {}
+INFO:root:threadpool addjob: ('http://game.kid.qq.com/static/article/20/40520.shtml',), {}
+INFO:root:threadpool addjob: ('http://kid.qq.com/a/20130113/000002.htm',), {}
+INFO:root:threadpool addjob: ('http://kid.qq.com/dzb.htm',), {}
+INFO:root:threadpool addjob: ('http://kid.qq.com/zt/2012/tomandjerry/index.htm',), {}
+INFO:root:threadpool addjob: ('http://kid.qq.com/mhd/index.htm',), {}
+INFO:root:threadpool addjob: ('http://kid.qq.com/zhishituku/pics.htm',), {}
+INFO:root:threadpool addjob: ('http://kid.qq.com/a/20130112/000006.htm',), {}
+INFO:root:threadpool addjob: ('http://app.kid.qq.com/exam/6943/6943.htm',), {}
+INFO:root:threadpool addjob: ('http://kid.qq.com/gushiba/index.htm',), {}
+INFO:root:threadpool addjob: ('http://datalib.kid.qq.com/kid_book/2425/index.shtml',), {}
+INFO:root:threadpool addjob: ('http://datalib.kid.qq.com/kid_book/2352/index.shtml',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/yingyangxx/yysg.htm',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/a/20130112/000002.htm',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/133894116302737',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/pregnancy/index.htm',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/a/20130112/000001.htm',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/216523002459139',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/xuexiao/index.htm',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/a/20130112/000003.htm',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/134396055676866',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/jiankang/index.htm',), {}
+INFO:root:threadpool addjob: ('http://baby.qq.com/a/20130112/000004.htm',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com/p/t/190537110626527',), {}
+INFO:root:threadpool addjob: ('http://cul.book.qq.com/ssyd/index.htm',), {}
+INFO:root:threadpool addjob: ('http://cul.book.qq.com/zt2013/daideng/',), {}
+INFO:root:threadpool addjob: ('http://cul.book.qq.com/a/20130112/000005.htm',), {}
+INFO:root:threadpool addjob: ('http://book.qq.com/zt2013/yunzhidao/index.htm',), {}
+INFO:root:threadpool addjob: ('http://cul.book.qq.com/a/20130112/000010.htm',), {}
+INFO:root:threadpool addjob: ('javascript:void(0)',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/augury/augu_test.shtml',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/a/20130112/000011.htm',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/06newver/horoscope.shtml',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/a/20130112/000013.htm',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/06newver/love_index.shtml',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/a/20130112/000007.htm',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/fash/fash_tide.shtml',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/a/20130112/000005.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/society_index.shtml',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000010.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000424.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000239.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000311.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000566.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000564.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000007.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000042.htm',), {}
+INFO:root:threadpool addjob: ('http://comic.qq.com/zt2012/2013btvkaku/index.htm',), {}
+INFO:root:threadpool addjob: ('http://games.qq.com',), {}
+INFO:root:threadpool addjob: ('http://games.qq.com/a/20130113/000001.htm',), {}
+INFO:root:threadpool addjob: ('http://games.qq.com/gameact/xy3.htm',), {}
+INFO:root:threadpool addjob: ('http://games.qq.com/gameact/msg.htm',), {}
+INFO:root:threadpool addjob: ('http://games.qq.com/a/20130113/000016.htm',), {}
+INFO:root:threadpool addjob: ('http://games.qq.com/zt2011/factory/qqxl.htm',), {}
+INFO:root:threadpool addjob: ('http://games.qq.com/a/20130111/000048.htm',), {}
+INFO:root:threadpool addjob: ('http://ac.qq.com/ComicView/index/id/480214/cid/1/ref/qqcom',), {}
+INFO:root:threadpool addjob: ('http://ac.qq.com/ComicView/index/id/458924/cid/3/ref/qqcom',), {}
+INFO:root:threadpool addjob: ('http://anime2013.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://gongyi.qq.com/a/20130111/000006.htm',), {}
+INFO:root:threadpool addjob: ('http://gongyi.qq.com/a/20130110/000009.htm',), {}
+INFO:root:threadpool addjob: ('http://gongyi.qq.com/a/20130111/000011.htm',), {}
+INFO:root:threadpool addjob: ('http://gongyi.qq.com/a/20130111/000008.htm',), {}
+INFO:root:threadpool addjob: ('http://vip.qq.com/life.html',), {}
+INFO:root:threadpool addjob: ('http://cb.qq.com/?attach=100.1103.00.401.10',), {}
+INFO:root:threadpool addjob: ('http://cb.qq.com/jifen/lottery.html?attach=200.1212.01.401.10',), {}
+INFO:root:threadpool addjob: ('http://go.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://go.qq.com/act/201208/baokuan.html?attach=qqlvyou_28_134_',), {}
+INFO:root:threadpool addjob: ('http://piao.qq.com/index.html',), {}
+INFO:root:threadpool addjob: ('http://piao.qq.com/acts/guide/dy1301.html',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/zh-cn/at/pr/2012.shtml',), {}
+INFO:root:threadpool addjob: ('http://reteng.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20121218',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/zh-cn/content/at/2012/attachments/20121114.pdf',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20120907',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20120827',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/zh-cn/content/at/2012/attachments/20120829.pdf',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/zh-cn/content/at/2012/attachments/20120815.pdf',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/zh-cn/content/at/2012/attachments/20120703.pdf',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/photo.shtml',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000183.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000186.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/zt2012/Memory2012/qianzhongzaobao.htm',), {}
+INFO:root:threadpool addjob: ('http://news.qq.com/a/20130113/000265.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000015.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://astro.lady.qq.com/a/20130112/000019.htm',), {}
+INFO:root:threadpool addjob: ('http://finance.qq.com/a/20130111/004452.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://cul.book.qq.com/a/20130112/000002.htm',), {}
+INFO:root:threadpool addjob: ('http://tech.qq.com/a/20130111/000026.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://house.qq.com/a/20130113/000007.htm',), {}
+INFO:root:threadpool addjob: ('http://auto.qq.com/a/20130113/000061.htm',), {}
+INFO:root:threadpool addjob: ('http://lady.qq.com/a/20130113/000074.htm',), {}
+INFO:root:threadpool addjob: ('http://comic.qq.com/show/',), {}
+INFO:root:threadpool addjob: ('http://ent.qq.com/a/20130113/000014.htm#p=1',), {}
+INFO:root:threadpool addjob: ('http://digi.tech.qq.com/zt2012/geeks/tinyfool/index.htm',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/index_e.shtml',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/contract.shtml',), {}
+INFO:root:threadpool addjob: ('http://open.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://www.tencentmind.com/',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/about/corp.shtml',), {}
+INFO:root:threadpool addjob: ('http://hr.tencent.com/',), {}
+INFO:root:threadpool addjob: ('http://service.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm',), {}
+INFO:root:threadpool addjob: ('http://www.szga.gov.cn',), {}
+INFO:root:threadpool addjob: ('http://www.gdis.cn/admin/newstext_netsun.asp',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/copyright.shtml',), {}
+INFO:root:threadpool addjob: ('http://y.china.com.cn/',), {}
+INFO:root:threadpool addjob: ('http://www.gdca.gov.cn/',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/scio.htm',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/internet_licence.htm',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/xwdz.shtml',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/culture.shtml',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/cbst.shtml',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/icp.shtml',), {}
+INFO:root:threadpool addjob: ('http://www.qq.com/icp1.shtml',), {}
+INFO:root:threadpool addjob: ('http://www.sznet110.gov.cn/netalarm/index.jsp',), {}
+INFO:root:threadpool addjob: ('http://www.sznet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=4403101010155',), {}
+INFO:root:threadpool addjob: ('http://www.hd315.gov.cn/beian/view.asp?bianhao=0272000112400002',), {}
+INFO:root:threadpool addjob: ('http://net.china.cn/chinese/index.htm',), {}
+INFO:root:threadpool addjob: ('http://www.wenming.cn',), {}
+INFO:root:threadpool addjob: ('http://search.cxwz.org/cert/l/CX20111018000606000613',), {}
+INFO:root:threadpool addjob: ('"+decodeURIComponent(e.data[r].url)+"',), {}
+INFO:root:threadpool addjob: ('http://t.qq.com',), {}
+INFO:root:threadpool addjob: ('http://sh.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://cq.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://gd.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://xian.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://cd.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://fj.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://henan.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://hb.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://hn.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://zj.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://mysh.qq.com/forum.php',), {}
+INFO:root:threadpool addjob: ('http://mycq.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://mygd.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://myxian.qq.com/forum.php',), {}
+INFO:root:threadpool addjob: ('http://mycd.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://myfj.qq.com/life',), {}
+INFO:root:threadpool addjob: ('http://myhenan.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://myhb.qq.com/forum.php',), {}
+INFO:root:threadpool addjob: ('http://myhn.qq.com/forum.php',), {}
+INFO:root:threadpool addjob: ('http://myzj.qq.com/',), {}
+INFO:root:threadpool addjob: ('http://e.t.qq.com/TJB1009',), {}
+INFO:root:Finished: http://www.qq.com/itime/
+INFO:root:Begin: http://mail.qq.com
+INFO:root:Finished: http://mail.qq.com
+INFO:root:Begin: http://qzone.qq.com
+INFO:root:Finished: http://3gqq.qq.com
+INFO:root:Begin: http://t.qq.com?pref=qqcom.home.weiboIN
+INFO:root:Finished: http://aq.qq.com/ss?source_id=2384
+INFO:root:Begin: http://t.qq.com?pref=qqcom.home.weiboenter
+INFO:root:Finished: http://kf.qq.com/special_auto/qqbz.html
+INFO:root:Begin: http://t.qq.com/messages/inbox#pmtid=?pref=qqcom.home.wbinbox
+INFO:root:Finished: http://news.qq.com/mobile/
+INFO:root:Begin: http://t.qq.com/at?pref=qqcom.home.wbat
+INFO:root:Finished: http://kf.qq.com/index_login.html
+INFO:root:Begin: http://t.qq.com/follower.php?pref=qqcom.home.wbfollow
+INFO:root:Finished: http://support.qq.com/discuss/806_1.shtml
+INFO:root:Begin: http://www.soso.com
+INFO:root:Finished: http://t.qq.com?pref=qqcom.home.weiboenter
+INFO:root:Begin: http://news.qq.com/
+INFO:root:Finished: http://t.qq.com?pref=qqcom.home.weiboIN
+INFO:root:Begin: http://pp.qq.com/
+INFO:root:Finished: http://qzone.qq.com
+INFO:root:Begin: http://mil.qq.com/
+INFO:root:Finished: http://www.soso.com
+INFO:root:Begin: http://weather.news.qq.com/
+INFO:root:Finished: http://www.pengyou.com
+INFO:root:Begin: http://v.qq.com/
+INFO:root:Finished: http://t.qq.com/messages/inbox#pmtid=?pref=qqcom.home.wbinbox
+INFO:root:Begin: http://v.qq.com/tv/
+INFO:root:Finished: http://www.qq.com/history/
+INFO:root:Begin: http://v.qq.com/variety/
+INFO:root:Finished: http://t.qq.com/at?pref=qqcom.home.wbat
+INFO:root:Begin: http://v.qq.com/paike/
+INFO:root:Finished: http://t.qq.com/follower.php?pref=qqcom.home.wbfollow
+INFO:root:Begin: http://ent.qq.com/
+INFO:root:Finished: http://mil.qq.com/
+INFO:root:Begin: http://ent.qq.com/star/
+INFO:root:Finished: http://www.qq.com/map/
+INFO:root:Begin: http://ent.qq.com/movie/
+INFO:root:Finished: http://pp.qq.com/
+INFO:root:Begin: http://yue.qq.com/
+INFO:root:Finished: http://ent.qq.com/movie/
+INFO:root:Begin: http://auto.qq.com/
+INFO:root:Finished: http://ent.qq.com/star/
+INFO:root:Begin: http://trip.elong.com/
+INFO:root:Finished: http://yue.qq.com/
+INFO:root:Begin: http://house.qq.com/
+INFO:root:Finished: http://v.qq.com/tv/
+INFO:root:Begin: http://c.l.qq.com/lclick?seq=20120810000273&loc=hdjc
+INFO:root:Finished: http://weather.news.qq.com/
+INFO:root:Begin: http://book.qq.com/
+INFO:root:Finished: http://v.qq.com/paike/
+INFO:root:Begin: http://edu.qq.com/
+INFO:root:Finished: http://v.qq.com/variety/
+INFO:root:Begin: http://yc.qq.com/
+INFO:root:Finished: http://ent.qq.com/
+INFO:root:Begin: http://abroad.qq.com/
+INFO:root:Finished: http://news.qq.com/
+INFO:root:Begin: http://www.paipai.com/?PTAG=10001.18.2
+INFO:root:Finished: http://trip.elong.com/
+INFO:root:Begin: http://blog.qq.com/
+INFO:root:Finished: http://c.l.qq.com/lclick?seq=20120810000273&loc=hdjc
+INFO:root:Begin: http://cul.qq.com/
+INFO:root:Finished: http://yc.qq.com/
+INFO:root:Begin: http://gd.qq.com
+INFO:root:Finished: http://book.qq.com/
+INFO:root:Begin: http://sh.qq.com
+INFO:root:Finished: http://edu.qq.com/
+INFO:root:Begin: http://cq.qq.com
+INFO:root:Finished: http://house.qq.com/
+INFO:root:Begin: http://xian.qq.com
+INFO:root:Finished: http://v.qq.com/
+INFO:root:Begin: http://cd.qq.com
+INFO:root:Finished: http://cul.qq.com/
+INFO:root:Begin: http://fj.qq.com
+INFO:root:Finished: http://abroad.qq.com/
+INFO:root:Begin: http://henan.qq.com
+INFO:root:Finished: http://auto.qq.com/
+INFO:root:Begin: http://hb.qq.com
+INFO:root:Finished: http://sh.qq.com
+INFO:root:Begin: http://hn.qq.com
+INFO:root:Finished: http://cq.qq.com
+INFO:root:Begin: http://zj.qq.com
+INFO:root:Finished: http://blog.qq.com/
+INFO:root:Begin: http://finance.qq.com/
+INFO:root:Finished: http://www.paipai.com/?PTAG=10001.18.2
+INFO:root:Begin: http://finance.qq.com/stock/
+INFO:root:Finished: http://xian.qq.com
+INFO:root:Begin: http://finance.qq.com/hk/
+INFO:root:Finished: http://cd.qq.com
+INFO:root:Begin: http://finance.qq.com/fund/
+INFO:root:Finished: http://gd.qq.com
+INFO:root:Begin: http://sports.qq.com/
+INFO:root:Finished: http://fj.qq.com
+INFO:root:Begin: http://sports.qq.com/nba/
+INFO:root:Finished: http://henan.qq.com
+INFO:root:Begin: http://sports.qq.com/isocce/England.htm
+INFO:root:Finished: http://hb.qq.com
+INFO:root:Begin: http://sports.qq.com/lottery/
+INFO:root:Finished: http://zj.qq.com
+INFO:root:Begin: http://lady.qq.com/
+INFO:root:Finished: http://hn.qq.com
+INFO:root:Begin: http://luxury.qq.com/
+INFO:root:Finished: http://sports.qq.com/isocce/England.htm
+INFO:root:Begin: http://health.qq.com/
+INFO:root:Finished: http://finance.qq.com/
+INFO:root:Begin: http://baby.qq.com/
+INFO:root:Finished: http://luxury.qq.com/
+INFO:root:Begin: http://tech.qq.com/
+INFO:root:Finished: http://sports.qq.com/lottery/
+INFO:root:Begin: http://digi.tech.qq.com/
+INFO:root:Finished: http://sports.qq.com/nba/
+INFO:root:Begin: http://digi.tech.qq.com/mobile/
+INFO:root:Finished: http://finance.qq.com/hk/
+INFO:root:Begin: http://hea.qq.com
+INFO:root:Finished: http://finance.qq.com/fund/
+INFO:root:Begin: http://games.qq.com/
+INFO:root:Finished: http://finance.qq.com/stock/
+INFO:root:Begin: http://comic.qq.com/
+INFO:root:Finished: http://lady.qq.com/
+INFO:root:Begin: http://ac.qq.com/
+INFO:root:Finished: http://baby.qq.com/
+INFO:root:Begin: http://astro.lady.qq.com/
+INFO:root:Finished: http://sports.qq.com/
+INFO:root:Begin: http://gongyi.qq.com/
+INFO:root:Finished: http://health.qq.com/
+INFO:root:Begin: http://kid.qq.com/
+INFO:root:Finished: http://hea.qq.com
+INFO:root:Begin: http://android.myapp.com/activity/goodapp/index.jsp?actid=133&g_f=991023
+INFO:root:Finished: http://android.myapp.com/activity/goodapp/index.jsp?actid=133&g_f=991023
+INFO:root:Begin: http://news.qq.com/zt2013/wumai/index.htm
+INFO:root:Finished: http://digi.tech.qq.com/
+INFO:root:Begin: http://news.qq.com/a/20130113/000799.htm
+INFO:root:Finished: http://tech.qq.com/
+INFO:root:Begin: http://news.qq.com/a/20130113/000879.htm
+INFO:root:Finished: http://comic.qq.com/
+INFO:root:Begin: http://news.qq.com/a/20130113/000634.htm
+INFO:root:Finished: http://news.qq.com/zt2013/wumai/index.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000592.htm
+INFO:root:Finished: http://ac.qq.com/
+INFO:root:Begin: http://health.qq.com/a/20130113/000002.htm
+INFO:root:Finished: http://gongyi.qq.com/
+INFO:root:Begin: http://news.qq.com/a/20130113/000177.htm
+INFO:root:Finished: http://kid.qq.com/
+INFO:root:Begin: http://news.qq.com/a/20130113/000852.htm
+INFO:root:Finished: http://games.qq.com/
+INFO:root:Begin: http://news.qq.com/a/20130113/000883.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000799.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000070.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000879.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000519.htm
+INFO:root:Finished: http://digi.tech.qq.com/mobile/
+INFO:root:Begin: http://news.qq.com/a/20130113/000773.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000634.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000841.htm
+INFO:root:Finished: http://astro.lady.qq.com/
+INFO:root:Begin: http://news.qq.com/a/20130113/000595.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000592.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000847.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000177.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000788.htm
+INFO:root:Finished: http://health.qq.com/a/20130113/000002.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000770.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000852.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000849.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000883.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000450.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000519.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000166.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000841.htm
+INFO:root:Begin: http://android.myapp.com/activity/goodapp/index.jsp?actid=133&g_f=991022
+INFO:root:Finished: http://android.myapp.com/activity/goodapp/index.jsp?actid=133&g_f=991022
+INFO:root:Begin: http://gongyi.qq.com/zt2012/xinyi2012/
+INFO:root:Finished: http://news.qq.com/a/20130113/000070.htm
+INFO:root:Begin: http://news.qq.com/zt2011/oneday/1109.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000595.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000186.htm#p=1
+INFO:root:Finished: http://news.qq.com/a/20130113/000773.htm
+INFO:root:Begin: http://view.news.qq.com/
+INFO:root:Finished: http://news.qq.com/a/20130113/000847.htm
+INFO:root:Begin: http://view.news.qq.com/zt2013/stars/index.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000186.htm#p=1
+INFO:root:Begin: http://view.news.qq.com/index/zhuanti/zt_more.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000788.htm
+INFO:root:Begin: http://view.news.qq.com/zt2013/DrivingText/index.htm
+INFO:root:Finished: http://view.news.qq.com/
+INFO:root:Begin: http://view.news.qq.com/a/20130113/000001.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000770.htm
+INFO:root:Begin: http://history.qq.com/
+INFO:root:Finished: http://view.news.qq.com/index/zhuanti/zt_more.htm
+INFO:root:Begin: http://history.qq.com/a/20130113/000004.htm
+INFO:root:Finished: http://news.qq.com/zt2011/oneday/1109.htm
+INFO:root:Begin: http://finance.qq.com/cjgc/index.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000849.htm
+INFO:root:Begin: http://finance.qq.com/zt2013/cjgc/dz.htm
+INFO:root:Finished: http://finance.qq.com/cjgc/index.htm
+INFO:root:Begin: http://hanhan.qq.com/
+INFO:root:Finished: http://hanhan.qq.com/
+INFO:root:Begin: http://hanhan.qq.com/hanhan/one/one217.htm#page1
+INFO:root:Finished: http://history.qq.com/
+INFO:root:Begin: http://view.news.qq.com/zt2013/ysdjt195/index.htm
+INFO:root:Finished: http://view.news.qq.com/zt2013/stars/index.htm
+INFO:root:Begin: http://v.qq.com/news/index.html
+INFO:root:Finished: http://finance.qq.com/zt2013/cjgc/dz.htm
+INFO:root:Begin: http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=z0011zuwq7t
+INFO:root:Finished: http://news.qq.com/a/20130113/000450.htm
+INFO:root:Begin: http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=s00110e5b7w
+INFO:root:Finished: http://news.qq.com/a/20130113/000166.htm
+INFO:root:Begin: http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=l0011iodwxf
+INFO:root:Finished: http://view.news.qq.com/zt2013/DrivingText/index.htm
+INFO:root:Begin: http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=u0011onrazm
+INFO:root:Finished: http://hanhan.qq.com/hanhan/one/one217.htm#page1
+INFO:root:Begin: http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=f0011e6jzq7
+INFO:root:Finished: http://view.news.qq.com/a/20130113/000001.htm
+INFO:root:Begin: http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=d0011kwz6qh
+INFO:root:Finished: http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=z0011zuwq7t
+INFO:root:Begin: http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=e0011xjgy7u
+INFO:root:Finished: http://gongyi.qq.com/zt2012/xinyi2012/
+INFO:root:Begin: http://v.qq.com/cover/t/t3fb299gmlmjvrk.html?vid=n0109pog13d
+INFO:root:Finished: http://v.qq.com/news/index.html
+INFO:root:Begin: http://v.qq.com/sports/index.html
+INFO:root:Finished: http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=s00110e5b7w
+INFO:root:Begin: http://v.qq.com/cover/p/phi3gezlsopn6k2.html?vid=n0011mkzpeo
+INFO:root:Finished: http://v.qq.com/cover/n/nu8zg5qio0g3ut6.html?vid=l0011iodwxf
+INFO:root:Begin: http://v.qq.com/cover/z/z2nubq8rbh5i5zr.html?vid=l0011sejh94
+INFO:root:Finished: http://history.qq.com/a/20130113/000004.htm
+INFO:root:Begin: http://v.qq.com/ent/
+INFO:root:Finished: http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=u0011onrazm
+INFO:root:Begin: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=e0011xql1sj
+INFO:root:Finished: http://view.news.qq.com/zt2013/ysdjt195/index.htm
+INFO:root:Begin: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=d0011h0iwqp
+INFO:root:Finished: http://v.qq.com/cover/p/phi3gezlsopn6k2.html?vid=n0011mkzpeo
+INFO:root:Begin: http://v.qq.com/topic/2012/styy.html
+INFO:root:Finished: http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=f0011e6jzq7
+INFO:root:Begin: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=l0011xn82ev
+INFO:root:Finished: http://v.qq.com/cover/t/t3fb299gmlmjvrk.html?vid=n0109pog13d
+INFO:root:Begin: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=i00119739tp
+INFO:root:Finished: http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=d0011kwz6qh
+INFO:root:Begin: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=t00113ed2uk
+INFO:root:Finished: http://v.qq.com/cover/m/md0ij2ysmoooo8d.html?vid=e0011xjgy7u
+INFO:root:Begin: http://finance.qq.com/a/20130113/000497.htm
+INFO:root:Finished: http://v.qq.com/topic/2012/styy.html
+INFO:root:Begin: http://finance.qq.com/a/20130113/000093.htm
+INFO:root:Finished: http://v.qq.com/ent/
+INFO:root:Begin: http://finance.qq.com/a/20130113/000188.htm
+INFO:root:Finished: http://v.qq.com/cover/z/z2nubq8rbh5i5zr.html?vid=l0011sejh94
+INFO:root:Begin: http://finance.qq.com/a/20130113/000191.htm
+INFO:root:Finished: http://v.qq.com/sports/index.html
+INFO:root:Begin: http://finance.qq.com/a/20130113/000123.htm
+INFO:root:Finished: http://finance.qq.com/a/20130113/000497.htm
+INFO:root:Begin: http://finance.qq.com/a/20130113/000120.htm
+INFO:root:Finished: http://finance.qq.com/a/20130113/000093.htm
+INFO:root:Begin: http://finance.qq.com/a/20130113/000116.htm
+INFO:root:Finished: http://finance.qq.com/a/20130113/000188.htm
+INFO:root:Begin: http://finance.qq.com/products/portfolio/
+INFO:root:Finished: http://finance.qq.com/a/20130113/000191.htm
+INFO:root:Begin: http://stockhtm.finance.qq.com/hqing/zhishu/000001.htm
+INFO:root:Finished: http://finance.qq.com/a/20130113/000123.htm
+INFO:root:Begin: http://stock.qq.com/hkHSI
+INFO:root:Finished: http://finance.qq.com/products/portfolio/
+INFO:root:Begin: http://stockhtm.finance.qq.com/astock/ggcx/DJI.htm
+INFO:root:Finished: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=e0011xql1sj
+INFO:root:Begin: #
+WARNING:root:wrong url: #
+INFO:root:Begin: http://finance.qq.com/a/20130113/000508.htm
+INFO:root:Finished: http://stockhtm.finance.qq.com/astock/ggcx/DJI.htm
+INFO:root:Begin: http://finance.qq.com/a/20130113/000617.htm
+INFO:root:Finished: http://stockhtm.finance.qq.com/hqing/zhishu/000001.htm
+INFO:root:Begin: http://finance.qq.com/a/20130113/000603.htm
+INFO:root:Finished: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=i00119739tp
+INFO:root:Begin: http://stockapp.finance.qq.com/pstock
+INFO:root:Finished: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=d0011h0iwqp
+INFO:root:Begin: http://sports.qq.com/isocce/Spain.htm
+INFO:root:Finished: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=l0011xn82ev
+INFO:root:Begin: http://sports.qq.com/cba/
+INFO:root:Finished: http://stock.qq.com/hkHSI
+INFO:root:Begin: http://sports.qq.com/a/20130113/000472.htm
+INFO:root:Finished: http://v.qq.com/cover/w/wee87e3xhl7bhhk.html?vid=t00113ed2uk
+INFO:root:Begin: http://sports.qq.com/a/20130113/000514.htm
+INFO:root:Finished: http://finance.qq.com/a/20130113/000120.htm
+INFO:root:Begin: http://sports.qq.com/a/20130113/000513.htm
+INFO:root:Finished: http://finance.qq.com/a/20130113/000116.htm
+INFO:root:Begin: http://sports.qq.com/a/20130113/000262.htm
+INFO:root:Finished: http://stockapp.finance.qq.com/pstock
+INFO:root:Begin: http://sports.qq.com/isocce/Italy.htm
+INFO:root:Finished: http://finance.qq.com/a/20130113/000508.htm
+INFO:root:Begin: http://sports.qq.com/zt2012/2013master/index.htm
+INFO:root:Finished: http://finance.qq.com/a/20130113/000617.htm
+INFO:root:Begin: http://sports.qq.com/tennis/2013ao/
+INFO:root:Finished: http://finance.qq.com/a/20130113/000603.htm
+INFO:root:Begin: http://sports.qq.com/a/20130113/000455.htm
+INFO:root:Finished: http://sports.qq.com/isocce/Spain.htm
+INFO:root:Begin: http://sports.qq.com/a/20130113/000117.htm
+INFO:root:Finished: http://sports.qq.com/cba/
+INFO:root:Begin: http://sports.qq.com/a/20130113/000373.htm
+INFO:root:Finished: http://sports.qq.com/a/20130113/000472.htm
+INFO:root:Begin: http://sports.qq.com/a/20130113/000015.htm
+INFO:root:Finished: http://sports.qq.com/a/20130113/000513.htm
+INFO:root:Begin: http://c.t.qq.com/i/918
+INFO:root:Finished: http://sports.qq.com/a/20130113/000514.htm
+INFO:root:Begin: http://t.qq.com/p/t/218224102505740
+INFO:root:Finished: http://sports.qq.com/zt2012/2013master/index.htm
+INFO:root:Begin: http://v.qq.com/cover/6/66sxj3jma0h4qlp.html?vid=b00115mmzpl
+INFO:root:Finished: http://sports.qq.com/tennis/2013ao/
+INFO:root:Begin: http://sports.qq.com/photo/
+INFO:root:Finished: http://t.qq.com/p/t/218224102505740
+INFO:root:Begin: http://sports.qq.com/a/20130113/000065.htm#p=1
+INFO:root:Finished: http://sports.qq.com/a/20130113/000262.htm
+INFO:root:Begin: http://sports.qq.com/a/20130112/000440.htm
+INFO:root:Finished: http://sports.qq.com/a/20130113/000065.htm#p=1
+INFO:root:Begin: http://sports.qq.com/a/20130113/000104.htm
+INFO:root:Finished: http://v.qq.com/cover/6/66sxj3jma0h4qlp.html?vid=b00115mmzpl
+INFO:root:Begin: http://sports.qq.com/jingcai/
+INFO:root:Finished: http://c.t.qq.com/i/918
+INFO:root:Begin: http://sports.qq.com/jingcai/#!/time/20130113/id/3010/sort/1/
+INFO:root:Finished: http://sports.qq.com/jingcai/#!/time/20130113/id/3010/sort/1/
+INFO:root:Begin: http://im.qq.com/
+INFO:root:Finished: http://sports.qq.com/isocce/Italy.htm
+INFO:root:Begin: http://mail.qq.com/
+INFO:root:Finished: http://sports.qq.com/a/20130112/000440.htm
+INFO:root:Begin: http://pc.qq.com/
+INFO:root:Finished: http://pc.qq.com/
+INFO:root:Begin: http://zc.qq.com/
+INFO:root:Finished: http://sports.qq.com/jingcai/
+INFO:root:Begin: http://vip.qq.com/
+INFO:root:Finished: http://mail.qq.com/
+INFO:root:Begin: http://pcmgr.qq.com/?ADTAG=tr.pcmgr.qqcom.QQCOM
+INFO:root:Finished: http://zc.qq.com/
+INFO:root:Begin: http://t.qq.com/?from=12
+INFO:root:Finished: http://im.qq.com/
+INFO:root:Begin: http://qzone.qq.com/
+INFO:root:Finished: http://sports.qq.com/photo/
+INFO:root:Begin: http://www.pengyou.com/
+INFO:root:Finished: http://sports.qq.com/a/20130113/000455.htm
+INFO:root:Begin: http://show.qq.com/
+INFO:root:Finished: http://pcmgr.qq.com/?ADTAG=tr.pcmgr.qqcom.QQCOM
+INFO:root:Begin: http://photo.qq.com/
+INFO:root:Finished: http://photo.qq.com/
+INFO:root:Begin: http://y.qq.com/
+INFO:root:Finished: http://show.qq.com/
+INFO:root:Begin: http://weixin.qq.com/
+INFO:root:Finished: http://t.qq.com/?from=12
+INFO:root:Begin: http://mq.qq.com/
+INFO:root:Finished: http://sports.qq.com/a/20130113/000117.htm
+INFO:root:Begin: http://mobile.qq.com/
+INFO:root:Finished: http://qzone.qq.com/
+INFO:root:Begin: http://mb.qq.com/
+INFO:root:Finished: http://sports.qq.com/a/20130113/000373.htm
+INFO:root:Begin: http://cgi.bl.qq.com/enterGame4index4ad.s/?ADTAG=bl.qq.index.gd&channel=10705
+INFO:root:Finished: http://www.pengyou.com/
+INFO:root:Begin: http://www.myapp.com/?g_f=990371
+INFO:root:Finished: http://sports.qq.com/a/20130113/000015.htm
+INFO:root:Begin: http://qqgame.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://mobile.qq.com/
+INFO:root:Begin: http://17roco.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://y.qq.com/
+INFO:root:Begin: http://7.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://cgi.bl.qq.com/enterGame4index4ad.s/?ADTAG=bl.qq.index.gd&channel=10705
+INFO:root:Begin: http://www.3366.com/
+INFO:root:Finished: http://weixin.qq.com/
+INFO:root:Begin: http://s3.qq.com/act/a20120807page/pkg.htm?via=qqvip_link&ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://www.myapp.com/?g_f=990371
+INFO:root:Finished: http://mb.qq.com/
+INFO:root:Begin: http://ss.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://dh.qq.com/cp/a20130104dhsx/index.htm?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Finished: http://qqgame.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://cf.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://s3.qq.com/act/a20120807page/pkg.htm?via=qqvip_link&ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://dnf.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://dh.qq.com/cp/a20130104dhsx/index.htm?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://lol.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://cf.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://speed.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://lol.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://x5.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Finished: http://17roco.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://nz.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Finished: http://ss.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://nba2k.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Finished: http://7.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://yl.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Finished: http://dnf.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://sg.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Finished: http://vip.qq.com/
+INFO:root:Begin: http://qqhx.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Finished: http://mq.qq.com/
+INFO:root:Begin: http://xy.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Finished: http://nz.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://game.qq.com?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Finished: http://sports.qq.com/a/20130113/000104.htm
+INFO:root:Begin: https://www.tenpay.com/
+INFO:root:Finished: http://game.qq.com?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://www.51buy.com?YTAG=0.224800001300000
+INFO:root:Finished: http://x5.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://www.paipai.com/?PTAG=10001.18.1
+INFO:root:Finished: http://speed.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation
+INFO:root:Begin: http://pay.qq.com/
+INFO:root:Finished: http://sg.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://cb.qq.com/?attach=200_1000_10090&QQ_from=200_1000_10090
+INFO:root:Finished: http://yl.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://meishi.qq.com/
+INFO:root:Finished: http://qqhx.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://c.t.qq.com/i/1189?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://xy.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://t.qq.com/p/t/214173032905447?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://nba2k.qq.com/?ADTAG=media.innerenter.qqcom.indexnavigation
+INFO:root:Begin: http://t.qq.com/p/t/177460057896092?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://pay.qq.com/
+INFO:root:Begin: http://t.qq.com/p/t/240108117898213?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://cb.qq.com/?attach=200_1000_10090&QQ_from=200_1000_10090
+INFO:root:Begin: http://t.qq.com/p/t/216226108012186?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/214173032905447?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/263208106299127?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/177460057896092?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/212324029404211?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/240108117898213?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/172728043055718?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/216226108012186?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/238708098692119?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/263208106299127?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/168228017016754?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/212324029404211?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/216921116240631?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/172728043055718?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/204171012970319?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://c.t.qq.com/i/1189?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/206371063527050?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/238708098692119?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/133399026235283?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/168228017016754?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/83920033850368?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/216921116240631?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://t.qq.com/p/t/180417100201657?pgv_ref=qqcom.index.mb.djak
+INFO:root:Finished: http://t.qq.com/p/t/204171012970319?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://ent.qq.com/a/20130113/000002.htm
+INFO:root:Finished: http://t.qq.com/p/t/206371063527050?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://ent.qq.com/a/20130113/000060.htm
+INFO:root:Finished: http://t.qq.com/p/t/133399026235283?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://ent.qq.com/a/20130113/000118.htm
+INFO:root:Finished: http://t.qq.com/p/t/83920033850368?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://ent.qq.com/a/20130113/000138.htm
+INFO:root:Finished: http://www.51buy.com?YTAG=0.224800001300000
+INFO:root:Begin: http://ent.qq.com/a/20130113/000029.htm
+INFO:root:Finished: http://t.qq.com/p/t/180417100201657?pgv_ref=qqcom.index.mb.djak
+INFO:root:Begin: http://ent.qq.com/a/20130113/000039.htm
+INFO:root:Finished: http://meishi.qq.com/
+INFO:root:Begin: http://ent.qq.com/a/20130113/000097.htm
+INFO:root:Finished: https://www.tenpay.com/
+INFO:root:Begin: http://ent.qq.com/a/20130113/000101.htm
+INFO:root:Finished: http://www.paipai.com/?PTAG=10001.18.1
+INFO:root:Begin: http://ent.qq.com/picture.shtml
+INFO:root:Finished: http://www.3366.com/
+INFO:root:Begin: http://ent.qq.com/a/20130113/000011.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000011.htm
+INFO:root:Begin: http://ent.qq.com/a/20130113/000014.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000118.htm
+INFO:root:Begin: http://ent.qq.com/a/20130113/000006.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000097.htm
+INFO:root:Begin: http://ent.qq.com/a/20130113/000010.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000014.htm
+INFO:root:Begin: http://123.qq.com/
+INFO:root:Finished: http://ent.qq.com/a/20130113/000039.htm
+INFO:root:Begin: http://ent.qq.com/a/20130113/000034.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000138.htm
+INFO:root:Begin: http://ent.qq.com/zt2012/talent4/index.htm
+INFO:root:Finished: http://ent.qq.com/picture.shtml
+INFO:root:Begin: http://ent.qq.com/a/20130113/000064.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000060.htm
+INFO:root:Begin: http://ent.qq.com/a/20130113/000027.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000002.htm
+INFO:root:Begin: http://ent.qq.com/a/20130113/000055.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000029.htm
+INFO:root:Begin: http://ent.qq.com/tv/
+INFO:root:Finished: http://ent.qq.com/a/20130113/000101.htm
+INFO:root:Begin: http://ent.qq.com/a/20130113/000026.htm
+INFO:root:Finished: http://ent.qq.com/tv/
+INFO:root:Begin: http://ent.qq.com/weibo/
+INFO:root:Finished: http://ent.qq.com/zt2012/talent4/index.htm
+INFO:root:Begin: http://t.qq.com/p/t/178959054850444
+INFO:root:Finished: http://t.qq.com/p/t/178959054850444
+INFO:root:Begin: http://v.qq.com/cover/i/isdck90a06zvxza.html
+INFO:root:Finished: http://ent.qq.com/a/20130113/000006.htm
+INFO:root:Begin: http://v.qq.com/cover/o/oyma5hdyia8e9rb.html
+INFO:root:Finished: http://ent.qq.com/a/20130113/000010.htm
+INFO:root:Begin: http://v.qq.com/movie/index.html
+INFO:root:Finished: http://ent.qq.com/a/20130113/000027.htm
+INFO:root:Begin: http://v.qq.com/cover/b/bpvff33i8z71li2.html
+INFO:root:Finished: http://ent.qq.com/a/20130113/000055.htm
+INFO:root:Begin: http://v.qq.com/cover/j/jysh73hacpf73vg.html
+INFO:root:Finished: http://ent.qq.com/a/20130113/000034.htm
+INFO:root:Begin: http://v.qq.com/cover/n/nvgborp17w45i9c.html
+INFO:root:Finished: http://v.qq.com/cover/i/isdck90a06zvxza.html
+INFO:root:Begin: http://v.qq.com/tv/index.html
+INFO:root:Finished: http://ent.qq.com/a/20130113/000026.htm
+INFO:root:Begin: http://v.qq.com/cover/g/g8c0xxx0xxvv4ol.html
+INFO:root:Finished: http://ent.qq.com/a/20130113/000064.htm
+INFO:root:Begin: http://v.qq.com/cover/o/ocura55u06iyv6c.html
+INFO:root:Finished: http://123.qq.com/
+INFO:root:Begin: http://v.qq.com/cover/e/e7oxy0nytxnot96.html
+INFO:root:Finished: http://v.qq.com/cover/o/oyma5hdyia8e9rb.html
+INFO:root:Begin: http://v.qq.com/variety/index.html
+INFO:root:Finished: http://v.qq.com/cover/b/bpvff33i8z71li2.html
+INFO:root:Begin: http://v.qq.com/cover/z/zb70mr0zr6kby7f.html
+INFO:root:Finished: http://v.qq.com/cover/j/jysh73hacpf73vg.html
+INFO:root:Begin: http://v.qq.com/cover/5/5b10pjvlj5set1p.html
+INFO:root:Finished: http://v.qq.com/cover/n/nvgborp17w45i9c.html
+INFO:root:Begin: http://v.qq.com/cover/5/58c5qixso9h4m06.html
+INFO:root:Finished: http://v.qq.com/tv/index.html
+INFO:root:Begin: http://v.qq.com/cartoon/
+INFO:root:Finished: http://v.qq.com/cover/g/g8c0xxx0xxvv4ol.html
+INFO:root:Begin: http://v.qq.com/cover/j/jxj5pth9h3a71sg.html
+INFO:root:Finished: http://v.qq.com/cover/5/5b10pjvlj5set1p.html
+INFO:root:Begin: http://v.qq.com/cover/l/llhmoghvxl4bh7g.html
+INFO:root:Finished: http://v.qq.com/cover/z/zb70mr0zr6kby7f.html
+INFO:root:Begin: http://v.qq.com/mytv/index.html
+INFO:root:Finished: http://v.qq.com/cover/5/58c5qixso9h4m06.html
+INFO:root:Begin: http://tech.qq.com/a/20130113/000012.htm#p=1
+INFO:root:Finished: http://v.qq.com/mytv/index.html
+INFO:root:Begin: http://tech.qq.com/a/20130113/000004.htm
+INFO:root:Finished: http://v.qq.com/cartoon/
+INFO:root:Begin: http://tech.qq.com/a/20130113/000008.htm
+INFO:root:Finished: http://v.qq.com/cover/l/llhmoghvxl4bh7g.html
+INFO:root:Begin: http://tech.qq.com/a/20130113/000030.htm
+INFO:root:Finished: http://v.qq.com/cover/e/e7oxy0nytxnot96.html
+INFO:root:Begin: http://tech.qq.com/a/20130113/000003.htm
+INFO:root:Finished: http://v.qq.com/movie/index.html
+INFO:root:Begin: http://digi.tech.qq.com/zt2013/digitech2013/index.htm
+INFO:root:Finished: http://tech.qq.com/a/20130113/000012.htm#p=1
+INFO:root:Begin: http://digi.tech.qq.com/a/20130113/000065.htm
+INFO:root:Finished: http://v.qq.com/variety/index.html
+INFO:root:Begin: http://digi.tech.qq.com/a/20130113/000058.htm
+INFO:root:Finished: http://v.qq.com/cover/o/ocura55u06iyv6c.html
+INFO:root:Begin: http://digi.tech.qq.com/a/20130113/000054.htm
+INFO:root:Finished: http://ent.qq.com/weibo/
+INFO:root:Begin: http://digi.tech.qq.com/a/20130113/000055.htm
+INFO:root:Finished: http://tech.qq.com/a/20130113/000004.htm
+INFO:root:Begin: http://auto.qq.com/a/20130113/000004.htm
+INFO:root:Finished: http://tech.qq.com/a/20130113/000008.htm
+INFO:root:Begin: http://auto.qq.com/buycar/homemarket/2012_index.htm
+INFO:root:Finished: http://auto.qq.com/buycar/homemarket/2012_index.htm
+INFO:root:Begin: http://k.t.qq.com/k/%25E5%2585%25A8%25E5%259B%25BD%25E8%25BD%25A6%25E5%25B8%2582%25E8%2581%2594%25E6%2592%25AD
+INFO:root:Finished: http://digi.tech.qq.com/zt2013/digitech2013/index.htm
+INFO:root:Begin: http://auto.qq.com/news/index.htm
+INFO:root:Finished: http://tech.qq.com/a/20130113/000030.htm
+INFO:root:Begin: http://auto.qq.com/a/20130113/000029.htm
+INFO:root:Finished: http://tech.qq.com/a/20130113/000003.htm
+INFO:root:Begin: http://auto.qq.com/a/20130111/000191.htm
+INFO:root:Finished: http://digi.tech.qq.com/a/20130113/000065.htm
+INFO:root:Begin: http://auto.qq.com/buycar/
+INFO:root:Finished: http://digi.tech.qq.com/a/20130113/000058.htm
+INFO:root:Begin: http://auto.qq.com/a/20130113/000006.htm
+INFO:root:Finished: http://auto.qq.com/a/20130113/000006.htm
+INFO:root:Begin: http://data.auto.qq.com/car_video/index.shtml
+INFO:root:Finished: http://digi.tech.qq.com/a/20130113/000054.htm
+INFO:root:Begin: http://auto.qq.com/a/20130113/000018.htm
+INFO:root:Finished: http://k.t.qq.com/k/%25E5%2585%25A8%25E5%259B%25BD%25E8%25BD%25A6%25E5%25B8%2582%25E8%2581%2594%25E6%2592%25AD
+INFO:root:Begin: http://auto.qq.com/a/20130113/000021.htm
+INFO:root:Finished: http://v.qq.com/cover/j/jxj5pth9h3a71sg.html
+INFO:root:Begin: http://auto.qq.com/a/20130113/000041.htm
+INFO:root:Finished: http://digi.tech.qq.com/a/20130113/000055.htm
+INFO:root:Begin: http://auto.qq.com/zt2013/xiaoqiang104/index.htm
+INFO:root:Finished: http://auto.qq.com/news/index.htm
+INFO:root:Begin: http://data.auto.qq.com/car_public/1/hq.shtml
+INFO:root:Finished: http://auto.qq.com/zt2013/xiaoqiang104/index.htm
+INFO:root:Begin: http://auto.qq.com/a/20130113/000050.htm
+INFO:root:Finished: http://data.auto.qq.com/car_video/index.shtml
+INFO:root:Begin: http://auto.qq.com/a/20130113/000051.htm
+INFO:root:Finished: http://auto.qq.com/buycar/
+INFO:root:Begin: http://auto.qq.com/a/20130113/000052.htm
+INFO:root:Finished: http://auto.qq.com/a/20130113/000004.htm
+INFO:root:Begin: http://auto.qq.com/autophoto/index.htm
+INFO:root:Finished: http://auto.qq.com/a/20130113/000029.htm
+INFO:root:Begin: http://data.auto.qq.com/car_public/1/piclib_disp_nl.shtml#cqpid=10371&pid=1061827
+INFO:root:Finished: http://data.auto.qq.com/car_public/1/piclib_disp_nl.shtml#cqpid=10371&pid=1061827
+INFO:root:Begin: http://auto.qq.com/club/buycar.htm
+INFO:root:Finished: http://auto.qq.com/club/buycar.htm
+INFO:root:Begin: http://trip.elong.com/xuexiang/tupian/135323.html
+INFO:root:Finished: http://auto.qq.com/autophoto/index.htm
+INFO:root:Begin: http://lvyou.elong.com/68901/pictorial/a1i28vcd/3401675.html#main
+INFO:root:Finished: http://auto.qq.com/a/20130111/000191.htm
+INFO:root:Begin: http://lvyou.elong.com/5204892/pictorial/a1i996h7/3403924.html#main
+INFO:root:Finished: http://auto.qq.com/a/20130113/000018.htm
+INFO:root:Begin: http://lvyou.elong.com/567520/tour/a0abefpc.html
+INFO:root:Finished: http://auto.qq.com/a/20130113/000021.htm
+INFO:root:Begin: http://lvyou.elong.com/567520/tour/a0a4ekk9.html
+INFO:root:Finished: http://auto.qq.com/a/20130113/000041.htm
+INFO:root:Begin: http://lvyou.elong.com/5204892/tour/a1id97g4.html
+WARNING:root:wrong url: http://lvyou.elong.com/5204892/tour/a1id97g4.html
+INFO:root:Begin: http://lvyou.elong.com/5229371/tour/a1ie9523.html
+INFO:root:Finished: http://trip.elong.com/xuexiang/tupian/135323.html
+INFO:root:Begin: http://lvyou.elong.com/5205850/pictorial/a1i490k2/3402064.html#main
+INFO:root:Finished: http://lvyou.elong.com/5204892/pictorial/a1i996h7/3403924.html#main
+INFO:root:Begin: http://lvyou.elong.com/5212048/pictorial/a1ia91b2/3402202.html#main
+WARNING:root:wrong url: http://lvyou.elong.com/5212048/pictorial/a1ia91b2/3402202.html#main
+INFO:root:Begin: http://lvyou.elong.com/421505/tour/a1i898i8.html
+WARNING:root:wrong url: http://lvyou.elong.com/421505/tour/a1i898i8.html
+INFO:root:Begin: http://lvyou.elong.com/5236029/tour/a1id98o4.html
+INFO:root:Finished: http://lvyou.elong.com/68901/pictorial/a1i28vcd/3401675.html#main
+INFO:root:Begin: http://lvyou.elong.com/5245482/tour/a1i08vv4.html
+WARNING:root:wrong url: http://lvyou.elong.com/5245482/tour/a1i08vv4.html
+INFO:root:Begin: http://lvyou.elong.com/5263281/tour/a1i69145.html
+INFO:root:Finished: http://lvyou.elong.com/567520/tour/a0a4ekk9.html
+INFO:root:Begin: http://lvyou.elong.com/44060/tour/a1i88vl5.html
+INFO:root:Finished: http://lvyou.elong.com/567520/tour/a0abefpc.html
+INFO:root:Begin: http://lvyou.elong.com/5260280/tour/a1i48o96.html
+INFO:root:Finished: http://lvyou.elong.com/5205850/pictorial/a1i490k2/3402064.html#main
+INFO:root:Begin: http://house.qq.com/a/20130113/000048.htm
+INFO:root:Finished: http://lvyou.elong.com/5229371/tour/a1ie9523.html
+INFO:root:Begin: http://house.qq.com/a/20130113/000012.htm
+INFO:root:Finished: http://lvyou.elong.com/5236029/tour/a1id98o4.html
+INFO:root:Begin: http://house.qq.com/a/20130113/000059.htm
+INFO:root:Finished: http://lvyou.elong.com/5263281/tour/a1i69145.html
+INFO:root:Begin: http://house.qq.com/zt2013/2013xzyp/index.htm
+INFO:root:Finished: http://lvyou.elong.com/44060/tour/a1i88vl5.html
+INFO:root:Begin: http://house.qq.com/a/20130113/000022.htm
+INFO:root:Finished: http://data.auto.qq.com/car_public/1/hq.shtml
+INFO:root:Begin: http://house.qq.com/a/20130113/000013.htm
+INFO:root:Finished: http://lvyou.elong.com/5260280/tour/a1i48o96.html
+INFO:root:Begin: http://house.qq.com/calculator/homelink2.htm
+INFO:root:Finished: http://house.qq.com/calculator/homelink2.htm
+INFO:root:Begin: http://db.house.qq.com/bj_9395/disp_pic.shtml#type=6&pid=2322&hx=0
+INFO:root:Finished: http://auto.qq.com/a/20130113/000050.htm
+INFO:root:Begin: http://db.house.qq.com/bj_9563/disp_pic.shtml#type=6&pid=40483&hx=0
+INFO:root:Finished: http://auto.qq.com/a/20130113/000051.htm
+INFO:root:Begin: http://db.house.qq.com/bj_34996/disp_pic.shtml#type=6&pid=131985&hx=0
+INFO:root:Finished: http://auto.qq.com/a/20130113/000052.htm
+INFO:root:Begin: http://db.house.qq.com/bj_100846/disp_pic.shtml#type=6&pid=159432&hx=0
+INFO:root:Finished: http://db.house.qq.com/bj_9395/disp_pic.shtml#type=6&pid=2322&hx=0
+INFO:root:Begin: http://house.qq.com/a/20130113/000005.htm
+INFO:root:Finished: http://db.house.qq.com/bj_9563/disp_pic.shtml#type=6&pid=40483&hx=0
+INFO:root:Begin: http://house.qq.com/a/20130113/000006.htm
+INFO:root:Finished: http://db.house.qq.com/bj_34996/disp_pic.shtml#type=6&pid=131985&hx=0
+INFO:root:Begin: http://house.qq.com/newhouse/
+INFO:root:Finished: http://house.qq.com/zt2013/2013xzyp/index.htm
+INFO:root:Begin: http://house.qq.com/a/20130113/000039.htm
+INFO:root:Finished: http://db.house.qq.com/bj_100846/disp_pic.shtml#type=6&pid=159432&hx=0
+INFO:root:Begin: http://house.qq.com/a/20130113/000028.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000005.htm
+INFO:root:Begin: http://house.qq.com/zhuanti/lpdglist.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000048.htm
+INFO:root:Begin: http://house.qq.com/a/20130113/000030.htm
+INFO:root:Finished: http://house.qq.com/zhuanti/lpdglist.htm
+INFO:root:Begin: http://house.qq.com/a/20130113/000019.htm
+
+INFO:root:Finished: http://house.qq.com/a/20130113/000012.htm
+INFO:root:Begin: http://house.qq.com/newhouse/drbj.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000059.htm
+INFO:root:Begin: http://house.qq.com/a/20130113/000032.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000013.htm
+INFO:root:Begin: http://house.qq.com/a/20130113/000024.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000022.htm
+INFO:root:Begin: http://sh.house.qq.com
+INFO:root:Finished: http://house.qq.com/a/20130113/000006.htm
+INFO:root:Begin: http://sh.house.qq.com/a/20130113/000011.htm
+INFO:root:Finished: http://house.qq.com/newhouse/
+INFO:root:Begin: http://sh.house.qq.com/a/20130113/000018.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000039.htm
+INFO:root:Begin: http://sh.house.qq.com/a/20130113/000003.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000028.htm
+INFO:root:Begin: http://sh.house.qq.com/a/20130113/000001.htm#p=1
+INFO:root:Finished: http://house.qq.com/a/20130113/000030.htm
+INFO:root:Begin: http://sh.house.qq.com/a/20130113/000002.htm
+INFO:root:Finished: http://sh.house.qq.com/a/20130113/000001.htm#p=1
+INFO:root:Begin: http://cq.house.qq.com/
+INFO:root:Finished: http://house.qq.com/a/20130113/000019.htm
+
+INFO:root:Begin: http://cq.qq.com/a/20130113/000054.htm
+INFO:root:Finished: http://house.qq.com/newhouse/drbj.htm
+INFO:root:Begin: http://cq.qq.com/a/20130113/000055.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000032.htm
+INFO:root:Begin: http://cq.qq.com/a/20130111/000317.htm
+INFO:root:Finished: http://house.qq.com/a/20130113/000024.htm
+INFO:root:Begin: http://gd.qq.com/house/
+INFO:root:Finished: http://gd.qq.com/house/
+INFO:root:Begin: http://gd.qq.com/zt2013/zkfh/index.htm
+INFO:root:Finished: http://sh.house.qq.com
+INFO:root:Begin: http://sz.house.qq.com/zt2013/lsqs053/index.htm
+INFO:root:Finished: http://sh.house.qq.com/a/20130113/000011.htm
+INFO:root:Begin: http://gz.house.qq.com/a/20130113/000016.htm
+INFO:root:Finished: http://gd.qq.com/zt2013/zkfh/index.htm
+INFO:root:Begin: http://gz.house.qq.com/a/20130113/000011.htm
+INFO:root:Finished: http://sh.house.qq.com/a/20130113/000018.htm
+INFO:root:Begin: http://gz.house.qq.com/a/20130113/000014.htm
+INFO:root:Finished: http://sz.house.qq.com/zt2013/lsqs053/index.htm
+INFO:root:Begin: http://xian.house.qq.com/
+INFO:root:Finished: http://sh.house.qq.com/a/20130113/000003.htm
+INFO:root:Begin: http://xian.house.qq.com/a/20130110/000027.htm
+INFO:root:Finished: http://cq.house.qq.com/
+INFO:root:Begin: http://xian.house.qq.com/a/20130111/000001.htm
+INFO:root:Finished: http://sh.house.qq.com/a/20130113/000002.htm
+INFO:root:Begin: http://xian.house.qq.com/a/20130111/000016.htm
+INFO:root:Finished: http://cq.qq.com/a/20130113/000054.htm
+INFO:root:Begin: http://cd.house.qq.com/
+INFO:root:Finished: http://cq.qq.com/a/20130113/000055.htm
+INFO:root:Begin: http://cd.house.qq.com/a/20130111/000041.htm
+INFO:root:Finished: http://cq.qq.com/a/20130111/000317.htm
+INFO:root:Begin: http://cd.house.qq.com/a/20130111/000037.htm
+INFO:root:Finished: http://gz.house.qq.com/a/20130113/000016.htm
+INFO:root:Begin: http://cd.house.qq.com/a/20130111/000038.htm
+INFO:root:Finished: http://xian.house.qq.com/
+INFO:root:Begin: http://cd.house.qq.com/a/20130111/000040.htm
+INFO:root:Finished: http://gz.house.qq.com/a/20130113/000014.htm
+INFO:root:Begin: http://fz.house.qq.com/
+INFO:root:Finished: http://gz.house.qq.com/a/20130113/000011.htm
+INFO:root:Begin: http://fz.house.qq.com/a/20130111/000005.htm
+INFO:root:Finished: http://xian.house.qq.com/a/20130110/000027.htm
+INFO:root:Begin: http://fz.house.qq.com/a/20130110/000047.htm
+INFO:root:Started:
+INFO:root:Finished: http://xian.house.qq.com/a/20130111/000016.htm
+INFO:root:Begin: http://fz.house.qq.com/a/20130111/000002.htm
+INFO:root:Finished: http://xian.house.qq.com/a/20130111/000001.htm
+INFO:root:Begin: http://henan.qq.com/house/
+INFO:root:Finished: http://cd.house.qq.com/a/20130111/000041.htm
+INFO:root:Begin: http://henan.qq.com/zt/2012/kft9/
+INFO:root:Finished: http://cd.house.qq.com/
+INFO:root:Begin: http://henan.qq.com/a/20130111/000087.htm
+INFO:root:Finished: http://cd.house.qq.com/a/20130111/000037.htm
+INFO:root:Begin: http://henan.qq.com/a/20130111/000130.htm
+INFO:root:Finished: http://cd.house.qq.com/a/20130111/000038.htm
+INFO:root:Begin: http://wh.house.qq.com
+INFO:root:Finished: http://henan.qq.com/zt/2012/kft9/
+INFO:root:Begin: http://wh.house.qq.com/a/20130113/000001.htm
+INFO:root:Finished: http://cd.house.qq.com/a/20130111/000040.htm
+INFO:root:Begin: http://wh.house.qq.com/a/20130113/000002.htm
+INFO:root:Finished: http://fz.house.qq.com/a/20130111/000005.htm
+INFO:root:Begin: http://wh.house.qq.com/zt2013/dg018/index.htm
+INFO:root:Finished: http://fz.house.qq.com/a/20130110/000047.htm
+INFO:root:Begin: http://cs.house.qq.com/
+INFO:root:Finished: http://henan.qq.com/house/
+INFO:root:Begin: http://cs.house.qq.com/zt2013/xgdd/index.htm
+INFO:root:Finished: http://henan.qq.com/a/20130111/000087.htm
+INFO:root:Begin: http://cs.house.qq.com/a/20130113/000003.htm
+INFO:root:Finished: http://fz.house.qq.com/a/20130111/000002.htm
+INFO:root:Begin: http://cs.house.qq.com/a/20130113/000007.htm
+INFO:root:Finished: http://fz.house.qq.com/
+INFO:root:Begin: http://hz.house.qq.com/
+INFO:root:Finished: http://henan.qq.com/a/20130111/000130.htm
+INFO:root:Begin: http://hz.house.qq.com/a/20130112/000014.htm
+INFO:root:Finished: http://cs.house.qq.com/zt2013/xgdd/index.htm
+INFO:root:Begin: http://hz.house.qq.com/a/20130110/000066.htm
+INFO:root:Finished: http://wh.house.qq.com/zt2013/dg018/index.htm
+INFO:root:Begin: http://hz.house.qq.com/a/20130110/000065.htm
+INFO:root:Finished: http://wh.house.qq.com
+INFO:root:Begin: http://hz.house.qq.com/a/20130111/000033.htm
+INFO:root:Finished: http://hz.house.qq.com/a/20130110/000065.htm
+INFO:root:Begin: http://lady.qq.com/nvphoto/photo.shtml
+INFO:root:Finished: http://cs.house.qq.com/
+INFO:root:Begin: http://lady.qq.com/zhuanti2012/index.htm
+INFO:root:Finished: http://wh.house.qq.com/a/20130113/000001.htm
+INFO:root:Begin: http://luxury.qq.com/zt2013/weekly/002.htm
+INFO:root:Finished: http://hz.house.qq.com/a/20130111/000033.htm
+INFO:root:Begin: http://bella.qq.com
+INFO:root:Finished: http://wh.house.qq.com/a/20130113/000002.htm
+INFO:root:Begin: http://lady.qq.com/zt2013/editorspicks/index.htm
+INFO:root:Finished: http://luxury.qq.com/zt2013/weekly/002.htm
+INFO:root:Begin: http://bella.qq.com/index/headindex/showdiscovery?collect=%E6%90%AD%E9%85%8D&tag=+%E5%BC%BA%E5%8A%BF%E6%B0%94%E5%9C%BA%E5%A4%A7%E5%8C%85%E5%BD%93%E9%81%93
+INFO:root:Finished: http://lady.qq.com/zt2013/editorspicks/index.htm
+INFO:root:Begin: http://luxury.qq.com/zt2012/fashionista/002.htm
+INFO:root:Finished: http://bella.qq.com
+INFO:root:Begin: http://lady.qq.com/a/20130113/000029.htm
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://lady.qq.com/nvphoto/photo.shtml
+INFO:root:Begin: http://lady.qq.com/beauty/beauty.shtml
+INFO:root:Finished: http://cs.house.qq.com/a/20130113/000003.htm
+INFO:root:Begin: http://lady.qq.com/a/20130113/000003.htm
+INFO:root:Finished: http://cs.house.qq.com/a/20130113/000007.htm
+INFO:root:Begin: http://lady.qq.com/a/20130113/000007.htm
+INFO:root:Finished: http://bella.qq.com/index/headindex/showdiscovery?collect=%E6%90%AD%E9%85%8D&tag=+%E5%BC%BA%E5%8A%BF%E6%B0%94%E5%9C%BA%E5%A4%A7%E5%8C%85%E5%BD%93%E9%81%93
+INFO:root:Begin: http://health.qq.com/a/20130113/000005.htm
+INFO:root:Finished: http://hz.house.qq.com/a/20130112/000014.htm
+INFO:root:Begin: http://lady.qq.com/emo/emotio.shtml
+INFO:root:Finished: http://lady.qq.com/zhuanti2012/index.htm
+INFO:root:Begin: http://lady.qq.com/a/20130113/000043.htm
+INFO:root:Finished: http://hz.house.qq.com/a/20130110/000066.htm
+INFO:root:Begin: http://lady.qq.com/a/20130113/000048.htm
+INFO:root:Finished: http://luxury.qq.com/zt2012/fashionista/002.htm
+INFO:root:Begin: http://lady.qq.com/a/20130113/000017.htm
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+INFO:root:Finished
+
+INFO:root:Finished: http://hz.house.qq.com/
+INFO:root:Begin: http://lady.qq.com/a/20130113/000018.htm
+INFO:root:Finished: http://lady.qq.com/a/20130113/000018.htm
+INFO:root:Begin: http://history.news.qq.com/
+INFO:root:Finished: http://lady.qq.com/beauty/beauty.shtml
+INFO:root:Begin: http://mil.qq.com/mil_index.htm
+INFO:root:Finished: http://mil.qq.com/mil_index.htm
+INFO:root:Begin: http://blog.qq.com/pic/
+INFO:root:Finished: http://history.news.qq.com/
+INFO:root:Begin: http://blog.qq.com/qzone/622004691/1357890382.htm
+INFO:root:Finished: http://lady.qq.com/emo/emotio.shtml
+INFO:root:Begin: http://blog.qq.com/qzone/622007965/1357926532.htm
+INFO:root:Finished: http://lady.qq.com/a/20130113/000029.htm
+INFO:root:Begin: http://blog.qq.com/qzone/120308730/1357928928.htm
+INFO:root:Finished: http://blog.qq.com/pic/
+INFO:root:Begin: http://blog.qq.com/qzone/622006568/1357879773.htm
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://lady.qq.com/a/20130113/000003.htm
+INFO:root:Begin: http://dajia.qq.com/blog/200527064938751
+INFO:root:Finished: http://lady.qq.com/a/20130113/000007.htm
+INFO:root:Begin: http://blog.qq.com/qzone/622009853/1357877178.htm
+INFO:root:Finished: http://blog.qq.com/qzone/622007965/1357926532.htm
+INFO:root:Begin: http://history.qq.com/a/20130113/000003.htm
+INFO:root:Finished: http://health.qq.com/a/20130113/000005.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000189.htm
+INFO:root:Finished: http://lady.qq.com/a/20130113/000043.htm
+INFO:root:Begin: http://bookapp.book.qq.com/profile/
+INFO:root:Finished: http://lady.qq.com/a/20130113/000048.htm
+INFO:root:Begin: http://cul.book.qq.com/a/20130106/000096.htm
+INFO:root:Finished: http://blog.qq.com/qzone/120308730/1357928928.htm
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2524463
+INFO:root:Finished: http://dajia.qq.com/blog/200527064938751
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2525852
+INFO:root:Finished: http://blog.qq.com/qzone/622004691/1357890382.htm
+INFO:root:Begin: http://book.qq.com/zt2013/daideng/
+INFO:root:Finished: http://lady.qq.com/a/20130113/000017.htm
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2529968
+INFO:root:Finished: http://bookapp.book.qq.com/profile/
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2530079
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+INFO:root:Finished
+
+INFO:root:Finished: http://blog.qq.com/qzone/622006568/1357879773.htm
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2521808
+INFO:root:Finished: http://blog.qq.com/qzone/622009853/1357877178.htm
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2518285
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2521808
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2527070
+INFO:root:Finished: http://book.qq.com/zt2013/daideng/
+INFO:root:Begin: http://book.qq.com/girl/index.htm
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2529968
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2518965
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2530079
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2495507
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2525852
+INFO:root:Begin: http://book.qq.com/man/index.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000189.htm
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2328234
+INFO:root:Finished: http://book.qq.com/girl/index.htm
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2484540
+INFO:root:Finished: http://cul.book.qq.com/a/20130106/000096.htm
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2514475
+INFO:root:Finished: http://history.qq.com/a/20130113/000003.htm
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2517724
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2518965
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2525859
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2527070
+INFO:root:Begin: http://bookapp.book.qq.com/origin/book/?workid=2527905
+INFO:root:Finished: http://book.qq.com/man/index.htm
+INFO:root:Begin: http://edu.qq.com/gaokao/
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2495507
+INFO:root:Begin: {clickurl}
+WARNING:root:wrong url: {clickurl}
+INFO:root:Begin: http://edu.qq.com/abroad/
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2524463
+INFO:root:Begin: http://edu.qq.com/a/20130113/000017.htm
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2525859
+INFO:root:Begin: http://edu.qq.com/zt2012/gzslx/index.htm
+INFO:root:Finished: http://edu.qq.com/zt2012/gzslx/index.htm
+INFO:root:Begin: http://edu.qq.com/zt2013/2013wsl/index.htm
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2527905
+INFO:root:Begin: http://edu.qq.com/zt2012/2013gjgwyks/index.htm
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2514475
+INFO:root:Begin: http://edu.qq.com/zt2012/graduate2013/index.htm
+INFO:root:Finished: http://edu.qq.com/abroad/
+INFO:root:Begin: http://edu.qq.com/a/20130111/000188.htm
+INFO:root:Finished: http://edu.qq.com/a/20130113/000017.htm
+INFO:root:Begin: http://edu.qq.com/a/20130111/000142.htm
+INFO:root:Finished: http://edu.qq.com/zt2013/2013wsl/index.htm
+INFO:root:Begin: http://edu.qq.com/a/20130111/000099.htm
+INFO:root:Finished: http://edu.qq.com/gaokao/
+INFO:root:Begin: http://edu.qq.com/zt2013/Collegelist/index.htm
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2518285
+INFO:root:Begin: http://edu.qq.com/photo/photo.shtml
+INFO:root:Finished: http://edu.qq.com/zt2013/Collegelist/index.htm
+INFO:root:Begin: http://edu.qq.com/zt2012/2012hxzg/wahy.htm
+INFO:root:Finished: http://edu.qq.com/zt2012/2012hxzg/wahy.htm
+INFO:root:Begin: http://edu.qq.com/x/yqhj.htm
+INFO:root:Finished: http://edu.qq.com/x/yqhj.htm
+INFO:root:Begin: http://t.qq.com/qqedu
+INFO:root:Finished: http://edu.qq.com/photo/photo.shtml
+INFO:root:Begin: http://edu.qq.com/ssjy/16.htm
+INFO:root:Finished: http://edu.qq.com/zt2012/2013gjgwyks/index.htm
+INFO:root:Begin: http://v.qq.com/kid/cover/5/50qamlnlgnd45xw.html
+INFO:root:Finished: http://edu.qq.com/ssjy/16.htm
+INFO:root:Begin: http://game.kid.qq.com/static/article/20/40520.shtml
+INFO:root:Finished: http://t.qq.com/qqedu
+INFO:root:Begin: http://kid.qq.com/a/20130113/000002.htm
+INFO:root:Finished: http://edu.qq.com/a/20130111/000142.htm
+INFO:root:Begin: http://kid.qq.com/dzb.htm
+INFO:root:Finished: http://edu.qq.com/a/20130111/000188.htm
+INFO:root:Begin: http://kid.qq.com/zt/2012/tomandjerry/index.htm
+INFO:root:Finished: http://edu.qq.com/a/20130111/000099.htm
+INFO:root:Begin: http://kid.qq.com/mhd/index.htm
+INFO:root:Finished: http://edu.qq.com/zt2012/graduate2013/index.htm
+INFO:root:Begin: http://kid.qq.com/zhishituku/pics.htm
+INFO:root:Finished: http://kid.qq.com/zt/2012/tomandjerry/index.htm
+INFO:root:Begin: http://kid.qq.com/a/20130112/000006.htm
+INFO:root:Finished: http://game.kid.qq.com/static/article/20/40520.shtml
+INFO:root:Begin: http://app.kid.qq.com/exam/6943/6943.htm
+INFO:root:Finished: http://v.qq.com/kid/cover/5/50qamlnlgnd45xw.html
+INFO:root:Begin: http://kid.qq.com/gushiba/index.htm
+INFO:root:Finished: http://kid.qq.com/dzb.htm
+INFO:root:Begin: http://datalib.kid.qq.com/kid_book/2425/index.shtml
+INFO:root:Finished: http://kid.qq.com/mhd/index.htm
+INFO:root:Begin: http://datalib.kid.qq.com/kid_book/2352/index.shtml
+INFO:root:Finished: http://app.kid.qq.com/exam/6943/6943.htm
+INFO:root:Begin: http://baby.qq.com/yingyangxx/yysg.htm
+INFO:root:Finished: http://kid.qq.com/a/20130113/000002.htm
+INFO:root:Begin: http://baby.qq.com/a/20130112/000002.htm
+INFO:root:Finished: http://datalib.kid.qq.com/kid_book/2425/index.shtml
+INFO:root:Begin: http://t.qq.com/p/t/133894116302737
+INFO:root:Finished: http://datalib.kid.qq.com/kid_book/2352/index.shtml
+INFO:root:Begin: http://baby.qq.com/pregnancy/index.htm
+INFO:root:Finished: http://t.qq.com/p/t/133894116302737
+INFO:root:Begin: http://baby.qq.com/a/20130112/000001.htm
+INFO:root:Finished: http://kid.qq.com/a/20130112/000006.htm
+INFO:root:Begin: http://t.qq.com/p/t/216523002459139
+INFO:root:Finished: http://kid.qq.com/gushiba/index.htm
+INFO:root:Begin: http://baby.qq.com/xuexiao/index.htm
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2484540
+INFO:root:Begin: http://baby.qq.com/a/20130112/000003.htm
+INFO:root:Finished: http://t.qq.com/p/t/216523002459139
+INFO:root:Begin: http://t.qq.com/p/t/134396055676866
+INFO:root:Finished: http://baby.qq.com/yingyangxx/yysg.htm
+INFO:root:Begin: http://baby.qq.com/jiankang/index.htm
+INFO:root:Finished: http://baby.qq.com/pregnancy/index.htm
+INFO:root:Begin: http://baby.qq.com/a/20130112/000004.htm
+INFO:root:Finished: http://t.qq.com/p/t/134396055676866
+INFO:root:Begin: http://t.qq.com/p/t/190537110626527
+INFO:root:Finished: http://baby.qq.com/xuexiao/index.htm
+INFO:root:Begin: http://cul.book.qq.com/ssyd/index.htm
+INFO:root:Finished: http://kid.qq.com/zhishituku/pics.htm
+INFO:root:Begin: http://cul.book.qq.com/zt2013/daideng/
+INFO:root:Finished: http://t.qq.com/p/t/190537110626527
+INFO:root:Begin: http://cul.book.qq.com/a/20130112/000005.htm
+INFO:root:Finished: http://baby.qq.com/jiankang/index.htm
+INFO:root:Begin: http://book.qq.com/zt2013/yunzhidao/index.htm
+INFO:root:Finished: http://cul.book.qq.com/ssyd/index.htm
+INFO:root:Begin: http://cul.book.qq.com/a/20130112/000010.htm
+INFO:root:Finished: http://book.qq.com/zt2013/yunzhidao/index.htm
+INFO:root:Begin: javascript:void(0)
+WARNING:root:wrong url: javascript:void(0)
+INFO:root:Begin: http://astro.lady.qq.com/augury/augu_test.shtml
+INFO:root:Finished: http://baby.qq.com/a/20130112/000002.htm
+INFO:root:Begin: http://astro.lady.qq.com/a/20130112/000011.htm
+INFO:root:Finished: http://cul.book.qq.com/zt2013/daideng/
+INFO:root:Begin: http://astro.lady.qq.com/06newver/horoscope.shtml
+INFO:root:Finished: http://baby.qq.com/a/20130112/000001.htm
+INFO:root:Begin: http://astro.lady.qq.com/a/20130112/000013.htm
+INFO:root:Finished: http://baby.qq.com/a/20130112/000003.htm
+INFO:root:Begin: http://astro.lady.qq.com/06newver/love_index.shtml
+INFO:root:Finished: http://astro.lady.qq.com/augury/augu_test.shtml
+INFO:root:Begin: http://astro.lady.qq.com/a/20130112/000007.htm
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2517724
+INFO:root:Begin: http://astro.lady.qq.com/fash/fash_tide.shtml
+INFO:root:Finished: http://baby.qq.com/a/20130112/000004.htm
+INFO:root:Begin: http://astro.lady.qq.com/a/20130112/000005.htm
+INFO:root:Finished: http://astro.lady.qq.com/06newver/horoscope.shtml
+INFO:root:Begin: http://news.qq.com/society_index.shtml
+INFO:root:Finished: http://astro.lady.qq.com/fash/fash_tide.shtml
+INFO:root:Begin: http://news.qq.com/a/20130113/000010.htm
+INFO:root:Finished: http://cul.book.qq.com/a/20130112/000005.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000424.htm
+INFO:root:Finished: http://astro.lady.qq.com/06newver/love_index.shtml
+INFO:root:Begin: http://news.qq.com/a/20130113/000239.htm
+INFO:root:Finished: http://cul.book.qq.com/a/20130112/000010.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000311.htm
+INFO:root:Finished: http://news.qq.com/society_index.shtml
+INFO:root:Begin: http://news.qq.com/a/20130113/000566.htm
+INFO:root:Finished: http://astro.lady.qq.com/a/20130112/000011.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000564.htm
+INFO:root:Finished: http://astro.lady.qq.com/a/20130112/000013.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000007.htm
+INFO:root:Finished: http://astro.lady.qq.com/a/20130112/000007.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000042.htm
+INFO:root:Finished: http://astro.lady.qq.com/a/20130112/000005.htm
+INFO:root:Begin: http://comic.qq.com/zt2012/2013btvkaku/index.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000010.htm
+INFO:root:Begin: http://games.qq.com
+INFO:root:Finished: http://news.qq.com/a/20130113/000424.htm
+INFO:root:Begin: http://games.qq.com/a/20130113/000001.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000239.htm
+INFO:root:Begin: http://games.qq.com/gameact/xy3.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000311.htm
+INFO:root:Begin: http://games.qq.com/gameact/msg.htm
+INFO:root:Finished: http://comic.qq.com/zt2012/2013btvkaku/index.htm
+INFO:root:Begin: http://games.qq.com/a/20130113/000016.htm
+INFO:root:Finished: http://games.qq.com/gameact/xy3.htm
+INFO:root:Begin: http://games.qq.com/zt2011/factory/qqxl.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000566.htm
+INFO:root:Begin: http://games.qq.com/a/20130111/000048.htm
+INFO:root:Finished: http://games.qq.com/gameact/msg.htm
+INFO:root:Begin: http://ac.qq.com/ComicView/index/id/480214/cid/1/ref/qqcom
+INFO:root:Finished: http://news.qq.com/a/20130113/000007.htm
+INFO:root:Begin: http://ac.qq.com/ComicView/index/id/458924/cid/3/ref/qqcom
+INFO:root:Finished: http://news.qq.com/a/20130113/000564.htm
+INFO:root:Begin: http://anime2013.qq.com/
+INFO:root:Finished: http://ac.qq.com/ComicView/index/id/480214/cid/1/ref/qqcom
+INFO:root:Begin: http://gongyi.qq.com/a/20130111/000006.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000042.htm
+INFO:root:Begin: http://gongyi.qq.com/a/20130110/000009.htm
+INFO:root:Finished: http://ac.qq.com/ComicView/index/id/458924/cid/3/ref/qqcom
+INFO:root:Begin: http://gongyi.qq.com/a/20130111/000011.htm
+INFO:root:Finished: http://games.qq.com/zt2011/factory/qqxl.htm
+INFO:root:Begin: http://gongyi.qq.com/a/20130111/000008.htm
+INFO:root:Finished: http://anime2013.qq.com/
+INFO:root:Begin: http://vip.qq.com/life.html
+INFO:root:Finished: http://vip.qq.com/life.html
+INFO:root:Begin: http://cb.qq.com/?attach=100.1103.00.401.10
+INFO:root:Finished: http://games.qq.com/a/20130113/000001.htm
+INFO:root:Begin: http://cb.qq.com/jifen/lottery.html?attach=200.1212.01.401.10
+INFO:root:Finished: http://cb.qq.com/?attach=100.1103.00.401.10
+INFO:root:Begin: http://go.qq.com/
+INFO:root:Finished: http://go.qq.com/
+INFO:root:Begin: http://go.qq.com/act/201208/baokuan.html?attach=qqlvyou_28_134_
+INFO:root:Finished: http://go.qq.com/act/201208/baokuan.html?attach=qqlvyou_28_134_
+INFO:root:Begin: http://piao.qq.com/index.html
+INFO:root:Finished: http://piao.qq.com/index.html
+INFO:root:Begin: http://piao.qq.com/acts/guide/dy1301.html
+INFO:root:Finished: http://cb.qq.com/jifen/lottery.html?attach=200.1212.01.401.10
+INFO:root:Begin: http://www.tencent.com/zh-cn/at/pr/2012.shtml
+INFO:root:Finished: http://www.tencent.com/zh-cn/at/pr/2012.shtml
+INFO:root:Begin: http://reteng.qq.com/
+INFO:root:Finished: http://gongyi.qq.com/a/20130111/000006.htm
+INFO:root:Begin: http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20121218
+INFO:root:Finished: http://gongyi.qq.com/a/20130111/000011.htm
+INFO:root:Begin: http://www.tencent.com/zh-cn/content/at/2012/attachments/20121114.pdf
+INFO:root:Finished: http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20121218
+INFO:root:Begin: http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20120907
+INFO:root:Finished: http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20120907
+INFO:root:Begin: http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20120827
+INFO:root:Finished: http://gongyi.qq.com/a/20130111/000008.htm
+INFO:root:Begin: http://www.tencent.com/zh-cn/content/at/2012/attachments/20120829.pdf
+INFO:root:Finished: http://games.qq.com/a/20130113/000016.htm
+INFO:root:Begin: http://www.tencent.com/zh-cn/content/at/2012/attachments/20120815.pdf
+INFO:root:Finished: http://www.tencent.com/zh-cn/at/pr/detail.shtml?id=at_2012_20120827
+INFO:root:Begin: http://www.tencent.com/zh-cn/content/at/2012/attachments/20120703.pdf
+INFO:root:Finished: http://piao.qq.com/acts/guide/dy1301.html
+INFO:root:Begin: http://news.qq.com/photo.shtml
+INFO:root:Finished: http://gongyi.qq.com/a/20130110/000009.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000183.htm#p=1
+INFO:root:Finished: http://games.qq.com/a/20130111/000048.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000186.htm
+INFO:root:Finished: http://games.qq.com
+INFO:root:Begin: http://news.qq.com/zt2012/Memory2012/qianzhongzaobao.htm
+INFO:root:Finished: http://news.qq.com/a/20130113/000186.htm
+INFO:root:Begin: http://news.qq.com/a/20130113/000265.htm#p=1
+INFO:root:Finished: http://news.qq.com/a/20130113/000183.htm#p=1
+INFO:root:Begin: http://lady.qq.com/a/20130113/000015.htm#p=1
+INFO:root:Finished: http://news.qq.com/zt2012/Memory2012/qianzhongzaobao.htm
+INFO:root:Begin: http://astro.lady.qq.com/a/20130112/000019.htm
+INFO:root:Finished: http://reteng.qq.com/
+INFO:root:Begin: http://finance.qq.com/a/20130111/004452.htm#p=1
+INFO:root:Finished: http://news.qq.com/a/20130113/000265.htm#p=1
+INFO:root:Begin: http://cul.book.qq.com/a/20130112/000002.htm
+INFO:root:Finished: http://lady.qq.com/a/20130113/000015.htm#p=1
+INFO:root:Begin: http://tech.qq.com/a/20130111/000026.htm#p=1
+INFO:root:Finished: http://www.tencent.com/zh-cn/content/at/2012/attachments/20120829.pdf
+INFO:root:Begin: http://house.qq.com/a/20130113/000007.htm
+INFO:root:Finished: http://tech.qq.com/a/20130111/000026.htm#p=1
+INFO:root:Begin: http://auto.qq.com/a/20130113/000061.htm
+INFO:root:Finished: http://auto.qq.com/a/20130113/000061.htm
+INFO:root:Begin: http://lady.qq.com/a/20130113/000074.htm
+INFO:root:Finished: http://www.tencent.com/zh-cn/content/at/2012/attachments/20120703.pdf
+INFO:root:Begin: http://comic.qq.com/show/
+INFO:root:Finished: http://house.qq.com/a/20130113/000007.htm
+INFO:root:Begin: http://ent.qq.com/a/20130113/000014.htm#p=1
+INFO:root:Finished: http://news.qq.com/photo.shtml
+INFO:root:Begin: http://digi.tech.qq.com/zt2012/geeks/tinyfool/index.htm
+INFO:root:Finished: http://ent.qq.com/a/20130113/000014.htm#p=1
+INFO:root:Begin: http://www.tencent.com/
+INFO:root:Finished: http://www.tencent.com/
+INFO:root:Begin: http://www.tencent.com/index_e.shtml
+INFO:root:Finished: http://www.tencent.com/index_e.shtml
+INFO:root:Begin: http://www.qq.com/contract.shtml
+INFO:root:Finished: http://digi.tech.qq.com/zt2012/geeks/tinyfool/index.htm
+INFO:root:Begin: http://open.qq.com/
+INFO:root:Finished: http://www.qq.com/contract.shtml
+INFO:root:Begin: http://www.tencentmind.com/
+INFO:root:Finished: http://www.tencentmind.com/
+INFO:root:Begin: http://www.tencent.com/about/corp.shtml
+INFO:root:Finished: http://www.tencent.com/about/corp.shtml
+INFO:root:Begin: http://hr.tencent.com/
+INFO:root:Finished: http://comic.qq.com/show/
+INFO:root:Begin: http://service.qq.com/
+INFO:root:Finished: http://hr.tencent.com/
+INFO:root:Begin: http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm
+INFO:root:Finished: http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm
+INFO:root:Begin: http://www.szga.gov.cn
+INFO:root:Finished: http://finance.qq.com/a/20130111/004452.htm#p=1
+INFO:root:Begin: http://www.gdis.cn/admin/newstext_netsun.asp
+INFO:root:Finished: http://service.qq.com/
+INFO:root:Begin: http://www.qq.com/copyright.shtml
+INFO:root:Finished: http://open.qq.com/
+INFO:root:Begin: http://y.china.com.cn/
+INFO:root:Finished: http://y.china.com.cn/
+INFO:root:Begin: http://www.gdca.gov.cn/
+INFO:root:Finished: http://astro.lady.qq.com/a/20130112/000019.htm
+INFO:root:Begin: http://www.qq.com/scio.htm
+INFO:root:Finished: http://cul.book.qq.com/a/20130112/000002.htm
+INFO:root:Begin: http://www.qq.com/internet_licence.htm
+INFO:root:Finished: http://www.qq.com/copyright.shtml
+INFO:root:Begin: http://www.qq.com/xwdz.shtml
+INFO:root:Finished: http://www.qq.com/scio.htm
+INFO:root:Begin: http://www.qq.com/culture.shtml
+INFO:root:Finished: http://www.qq.com/internet_licence.htm
+INFO:root:Begin: http://www.qq.com/cbst.shtml
+INFO:root:Finished: http://www.qq.com/xwdz.shtml
+INFO:root:Begin: http://www.qq.com/icp.shtml
+INFO:root:Finished: http://www.qq.com/culture.shtml
+INFO:root:Begin: http://www.qq.com/icp1.shtml
+INFO:root:Finished: http://www.szga.gov.cn
+INFO:root:Begin: http://www.sznet110.gov.cn/netalarm/index.jsp
+INFO:root:Finished: http://lady.qq.com/a/20130113/000074.htm
+INFO:root:Begin: http://www.sznet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=4403101010155
+INFO:root:Finished: http://www.qq.com/cbst.shtml
+INFO:root:Begin: http://www.hd315.gov.cn/beian/view.asp?bianhao=0272000112400002
+INFO:root:Finished: http://www.qq.com/icp.shtml
+INFO:root:Begin: http://net.china.cn/chinese/index.htm
+INFO:root:Finished: http://www.qq.com/icp1.shtml
+INFO:root:Begin: http://www.wenming.cn
+INFO:root:Finished: http://net.china.cn/chinese/index.htm
+INFO:root:Begin: http://search.cxwz.org/cert/l/CX20111018000606000613
+INFO:root:Finished: http://www.sznet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=4403101010155
+INFO:root:Begin: "+decodeURIComponent(e.data[r].url)+"
+WARNING:root:wrong url: "+decodeURIComponent(e.data[r].url)+"
+INFO:root:Begin: http://t.qq.com
+INFO:root:Finished: http://search.cxwz.org/cert/l/CX20111018000606000613
+INFO:root:Begin: http://sh.qq.com/
+INFO:root:Finished: http://www.sznet110.gov.cn/netalarm/index.jsp
+INFO:root:Begin: http://cq.qq.com/
+INFO:root:Finished: http://www.hd315.gov.cn/beian/view.asp?bianhao=0272000112400002
+INFO:root:Begin: http://gd.qq.com/
+INFO:root:Finished: http://t.qq.com
+INFO:root:Begin: http://xian.qq.com/
+INFO:root:Finished: http://www.tencent.com/zh-cn/content/at/2012/attachments/20121114.pdf
+INFO:root:Begin: http://cd.qq.com/
+INFO:root:Finished: http://www.wenming.cn
+INFO:root:Begin: http://fj.qq.com/
+WARNING:root:wrong url: http://www.gdis.cn/admin/newstext_netsun.asp
+INFO:root:Begin: http://henan.qq.com/
+INFO:root:Finished: http://sh.qq.com/
+INFO:root:Begin: http://hb.qq.com/
+WARNING:root:wrong url: http://www.gdca.gov.cn/
+INFO:root:Begin: http://hn.qq.com/
+INFO:root:Finished: http://cq.qq.com/
+INFO:root:Begin: http://zj.qq.com/
+INFO:root:Finished: http://cd.qq.com/
+INFO:root:Begin: http://mysh.qq.com/forum.php
+INFO:root:Finished: http://www.tencent.com/zh-cn/content/at/2012/attachments/20120815.pdf
+INFO:root:Begin: http://mycq.qq.com/
+INFO:root:Finished: http://xian.qq.com/
+INFO:root:Begin: http://mygd.qq.com/
+INFO:root:Finished: http://gd.qq.com/
+INFO:root:Begin: http://myxian.qq.com/forum.php
+INFO:root:Finished: http://mysh.qq.com/forum.php
+INFO:root:Begin: http://mycd.qq.com/
+INFO:root:Finished: http://fj.qq.com/
+INFO:root:Begin: http://myfj.qq.com/life
+INFO:root:Finished: http://myxian.qq.com/forum.php
+INFO:root:Begin: http://myhenan.qq.com/
+INFO:root:Finished: http://mycq.qq.com/
+INFO:root:Begin: http://myhb.qq.com/forum.php
+INFO:root:Finished: http://mycd.qq.com/
+INFO:root:Begin: http://myhn.qq.com/forum.php
+INFO:root:Finished: http://myfj.qq.com/life
+INFO:root:Begin: http://myzj.qq.com/
+INFO:root:Finished: http://hn.qq.com/
+INFO:root:Begin: http://e.t.qq.com/TJB1009
+INFO:root:Finished: http://mygd.qq.com/
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://henan.qq.com/
+INFO:root:Finished: http://hb.qq.com/
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://zj.qq.com/
+INFO:root:Finished: http://myzj.qq.com/
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://myhb.qq.com/forum.php
+INFO:root:Finished: http://myhn.qq.com/forum.php
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://myhenan.qq.com/
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://e.t.qq.com/TJB1009
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://bookapp.book.qq.com/origin/book/?workid=2328234
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+WARNING:root:can not parser HTML!
+ERROR:root:INSERT html data error!
+WARNING:root:can not parser HTML!
+ERROR:root:INSERT html data error!
+WARNING:root:can not parser HTML!
+ERROR:root:INSERT html data error!
+WARNING:root:can not parser HTML!
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+INFO:root:Finished
+
+INFO:root:Started:
 INFO:root:threadpool addjob: ('http://www.qq.com',), {}
 INFO:root:Begin: http://www.qq.com
 INFO:root:threadpool work queue empty!
@@ -52,66 +1980,7 @@ INFO:root:All threads are completed.
 ERROR:root:INSERT html data error!
 INFO:root:Finished
 
-INFO:root:Started
-INFO:root:Started
-INFO:root:threadpool addjob: ('http://www.qq.com',), {}
-INFO:root:Begin: http://www.qq.com
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:threadpool work queue empty!
-INFO:root:Finished: http://www.qq.com
-INFO:root:threadpool work queue empty!
-INFO:root:All threads are completed.
-ERROR:root:INSERT html data error!
-INFO:root:Finished
-
-INFO:root:Started
+INFO:root:Started:
 INFO:root:threadpool addjob: ('http://www.qq.com',), {}
 INFO:root:Begin: http://www.qq.com
 INFO:root:threadpool work queue empty!
@@ -129,7 +1998,7 @@ INFO:root:All threads are completed.
 ERROR:root:INSERT html data error!
 INFO:root:Finished
 
-INFO:root:Started
+INFO:root:Started:
 INFO:root:threadpool addjob: ('http://www.qq.com',), {}
 INFO:root:Begin: http://www.qq.com
 INFO:root:threadpool work queue empty!
@@ -147,7 +2016,61 @@ INFO:root:All threads are completed.
 ERROR:root:INSERT html data error!
 INFO:root:Finished
 
-INFO:root:Started
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started:
+INFO:root:threadpool addjob: ('http://www.qq.com',), {}
+INFO:root:Begin: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:threadpool work queue empty!
+INFO:root:Finished: http://www.qq.com
+INFO:root:threadpool work queue empty!
+INFO:root:All threads are completed.
+ERROR:root:INSERT html data error!
+INFO:root:Finished
+
+INFO:root:Started:
 INFO:root:threadpool addjob: ('http://www.qq.com',), {}
 INFO:root:Begin: http://www.qq.com
 INFO:root:threadpool work queue empty!
