@@ -1,9 +1,9 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
 
-# Filename: spider.py
+# Filename: spider_mysql.py
 # Author: Frank
-# Usage: python spider.py
+# Usage: python spider_mysql.py
 # deep = 2
 
 from thread_pool import *
@@ -34,7 +34,7 @@ class GetUrls(SGMLParser):
         if url:
             self.urls.extend(url)
 
-def do_get_content(url_link):
+def do_get_content(url_link, sql):
     logging.info('Begin: %s', url_link)
     try:
         fd = urllib2.urlopen(url_link)
@@ -45,6 +45,13 @@ def do_get_content(url_link):
     logging.debug('encodeing_info: %s', chardet.detect(content))
     #content = content.decode('gb2312').encode('utf-8')
     logging.info('Finished: %s', url_link)
+    data = [url_link, content]
+    try:
+        sql.execute('INSERT INTO html (url, data) VALUES (%s, %s)', data)
+    except:
+        logging.error('INSERT html data error!')
+        print 'INSERT ERROR!!!'
+        pass
     return content
 
 def html_text(html):
@@ -60,7 +67,7 @@ def html_text(html):
     html = string.replace(html, '%', '&percent')
     return html
 
-def save_parser(data, sql):
+def save_parser(data):
     """
     
     Arguments:
@@ -77,14 +84,6 @@ def save_parser(data, sql):
     #f.write(data)
     #f.write('Finished')
     #f.close()
-    text = html_text(data)
-    statement = 'INSERT INTO html VALUES ("' + text +'")'
-    try:
-        sql.execute('insert into html values (?)', [data])
-    except:
-        logging.error('INSERT html data error!')
-        print 'INSERT ERROR!!!'
-        pass
     return parser.urls
     
 
@@ -92,12 +91,12 @@ def do_get_con(deep, url_list, sql):
     get_urls = []
     tpm = ThreadPoolManager(argv_dict['--thread'])
     for url in url_list:
-        tpm.add_job(do_get_content, url)
+        tpm.add_job(do_get_content, url, sql)
 
     tpm.wait_for_complete()
     while tpm.resultQueue.qsize():
         data = tpm.resultQueue.get()
-        get_urls.extend(save_parser(data, sql))
+        get_urls.extend(save_parser(data))
     deep = deep -1
     if deep <= 0:
         return 0
@@ -145,10 +144,11 @@ def main():
     init(argv_list)
     url_list.append(argv_dict['-u'])
     logging.debug(url_list)
-    conn = sqlite3.connect(argv_dict['--dbfile'])
-    conn.text_factory = str
+    conn = MySQLdb.connect(host = 'localhost', user = 'root', passwd = 'SONGpf')
     cur_sql = conn.cursor()
-    cur_sql.execute('CREATE TABLE html (data BLOB)')
+    cur_sql.execute('create database if not exists test')
+    conn.select_db('test')
+    cur_sql.execute('CREATE TABLE html (id int not null auto_increment, url TINYBLOB, data MEDIUMBLOB, primary key (id))')
     do_get_con(argv_dict['-d'], url_list, cur_sql)
     conn.commit()
     cur_sql.close()
