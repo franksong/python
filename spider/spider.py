@@ -147,7 +147,7 @@ def main():
     logging.debug(url_list)
     conn = sqlite3.connect(argv_dict['--dbfile'])
     cur_sql = conn.cursor()
-    cur_sql.execute('CREATE TABLE html (data LONGBLOB)')
+    cur_sql.execute('CREATE TABLE html (data BLOB)')
     do_get_con(argv_dict['-d'], url_list, cur_sql)
     conn.commit()
     conn.close()
