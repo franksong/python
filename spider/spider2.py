@@ -15,7 +15,9 @@ import sqlite3
 import string
 import logging
 import chardet
-import MySQLdb
+import time
+import threading
+import Queue
 
 class GetUrls(SGMLParser):
     def reset(self):
@@ -44,6 +46,7 @@ def do_get_content(url_link):
     #content = content.decode('gb2312').encode('utf-8')
     logging.info('Finished: %s', url_link)
     data = [url_link, content]
+    count_queue.put(url_link)
     return data
 
 def html_text(html):
@@ -101,6 +104,13 @@ def do_get_con(deep, url_list, sql):
             url_list.append(url)
     return do_get_con(deep, result_urls, sql)
 
+def info():
+    """
+    """
+    while True:
+        time.sleep(10)
+        print '已爬取 %d 个网页。。。' % count_queue.qsize()
+        print
 
 def init(argv_list):
     """
@@ -142,6 +152,8 @@ def main():
     conn.text_factory = str
     cur_sql = conn.cursor()
     cur_sql.execute('CREATE TABLE html (url TINYBLOB, data BLOB)')
+    count_thread = threading.Thread(target = info)
+    count_thread.start()
     do_get_con(argv_dict['-d'], url_list, cur_sql)
     conn.commit()
     cur_sql.close()
@@ -163,5 +175,7 @@ if __name__ == '__main__':
     log_levels = ['50', '40', '30', '20', '10']
     argv_list = sys.argv[1:]
     print argv_list # test for output argv
+    print
+    count_queue = Queue.Queue(0)
     main()
     print 'Done'

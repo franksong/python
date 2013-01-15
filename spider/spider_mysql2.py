@@ -81,7 +81,7 @@ def do_get_content(url_link):
         fd = urllib2.urlopen(url_link)
     except:
         logging.warning('wrong url: %s', url_link)
-        return ''
+        return []
     content = fd.read()
     logging.debug('encodeing_info: %s', chardet.detect(content))
     #content = content.decode('gb2312').encode('utf-8')
