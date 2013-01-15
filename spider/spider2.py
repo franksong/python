@@ -1,9 +1,9 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
 
-# Filename: spider_mysql.py
+# Filename: spider2.py
 # Author: Frank
-# Usage: python spider_mysql.py
+# Usage: python spider2.py
 # deep = 2
 
 from thread_pool import *
@@ -16,8 +16,6 @@ import string
 import logging
 import chardet
 import MySQLdb
-
-#sys.setdefaultencoding('utf-8')
 
 class GetUrls(SGMLParser):
     def reset(self):
@@ -68,7 +66,6 @@ def save_parser(data, sql):
 
     - `data`:
     """
-    #filename = '/home/frank/mywork/html/qq.html'
     parser = GetUrls()
     try:
         parser.feed(data[1])
@@ -76,7 +73,7 @@ def save_parser(data, sql):
         logging.warning('can not parser HTML!')
 
     try:
-        sql.execute('INSERT INTO html (url, data) VALUES (%s, %s)', data)
+        sql.execute('insert into html values (?, ?)', data)
     except:
         logging.error('INSERT html data error!')
         print 'INSERT ERROR!!!'
@@ -141,11 +138,10 @@ def main():
     init(argv_list)
     url_list.append(argv_dict['-u'])
     logging.debug(url_list)
-    conn = MySQLdb.connect(host = 'localhost', user = 'root', passwd = 'SONGpf')
+    conn = sqlite3.connect(argv_dict['--dbfile'])
+    conn.text_factory = str
     cur_sql = conn.cursor()
-    cur_sql.execute('create database if not exists test')
-    conn.select_db('test')
-    cur_sql.execute('CREATE TABLE html (id int not null auto_increment, url TINYBLOB, data MEDIUMBLOB, primary key (id))')
+    cur_sql.execute('CREATE TABLE html (url TINYBLOB, data BLOB)')
     do_get_con(argv_dict['-d'], url_list, cur_sql)
     conn.commit()
     cur_sql.close()
@@ -156,7 +152,7 @@ def main():
 if __name__ == '__main__':
     argv_dict = {
         '-u': 'http://www.qq.com',
-        '-d': 3,
+        '-d': 2,
         '-f': 'spider.log',
         '-l': '4',
         '--thread': 10,
@@ -164,8 +160,6 @@ if __name__ == '__main__':
         '--key': False,
         '--testself': False
         }
-    #log_levels = ['logging.CRITICAL', 'logging.ERROR', 'logging.WARNING', \
-    #                  'logging.INFO', 'logging.DEBUG']
     log_levels = ['50', '40', '30', '20', '10']
     argv_list = sys.argv[1:]
     print argv_list # test for output argv

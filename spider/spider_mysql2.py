@@ -1,9 +1,9 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
 
-# Filename: spider_mysql.py
+# Filename: spider_mysql2.py
 # Author: Frank
-# Usage: python spider_mysql.py
+# Usage: python spider_mysql2.py
 # deep = 2
 
 from thread_pool import *
@@ -16,8 +16,8 @@ import string
 import logging
 import chardet
 import MySQLdb
-
-#sys.setdefaultencoding('utf-8')
+import threading
+import time
 
 class GetUrls(SGMLParser):
     def reset(self):
@@ -33,6 +33,47 @@ class GetUrls(SGMLParser):
         url = [value for key, value in attrs if key == 'href']
         if url:
             self.urls.extend(url)
+class OperatorMysql():
+    """
+    """
+    
+    def __init__(self, database = 'test', table = 'html2'):
+        """
+        """
+        self.database = database
+        self.table = table
+        self.conn = MySQLdb.connect(host = 'localhost', user = 'root', \
+                                        passwd = 'SONGpf')
+        self.cur = self.conn.cursor()
+        self.conn.select_db(self.database)
+    def __del__(self):
+        """
+        
+        Arguments:
+        - `self`:
+        """
+        self.conn.commit()
+        self.cur.close()
+        self.conn.close()
+    def insert(self, data, table = 'html2'):
+        """
+        
+        Arguments:
+        - `self`:
+        - `data`:
+        """
+        #parameter = [table, data]
+        self.cur.execute('insert into html2 (url, data) values (%s, %s)', data)
+    def count(self, table = 'html2'):
+        """
+        
+        Arguments:
+        - `self`:
+        - `table`:
+        """
+        self.cur.execute('select count(*) from html2')
+        return self.cur.fetchone()
+
 
 def do_get_content(url_link):
     logging.info('Begin: %s', url_link)
@@ -45,55 +86,34 @@ def do_get_content(url_link):
     logging.debug('encodeing_info: %s', chardet.detect(content))
     #content = content.decode('gb2312').encode('utf-8')
     logging.info('Finished: %s', url_link)
-    data = [url_link, content]
-    return data
-
-def html_text(html):
-    """
-    
-    Arguments:
-    - `html`:
-    """
-    html = string.replace(html, '“', "'")
-    html = string.replace(html, '"', "'")
-    html = string.replace(html, '；', ";")
-    html = string.replace(html, '/', '&quot')
-    html = string.replace(html, '%', '&percent')
-    return html
-
-def save_parser(data, sql):
-    """
-    
-    Arguments:
-
-    - `data`:
-    """
-    #filename = '/home/frank/mywork/html/qq.html'
     parser = GetUrls()
     try:
-        parser.feed(data[1])
+        parser.feed(content)
     except:
         logging.warning('can not parser HTML!')
 
+    data = [url_link, content]
+    sql = OperatorMysql()
     try:
-        sql.execute('INSERT INTO html (url, data) VALUES (%s, %s)', data)
+        sql.insert(data)
     except:
-        logging.error('INSERT html data error!')
+        logging.error('INSERT html data error!!!')
         print 'INSERT ERROR!!!'
         pass
-    return parser.urls
+    del sql
     
+    return parser.urls
 
-def do_get_con(deep, url_list, sql):
+def do_get_con(deep, url_list):
     get_urls = []
     tpm = ThreadPoolManager(argv_dict['--thread'])
     for url in url_list:
         tpm.add_job(do_get_content, url)
-
     tpm.wait_for_complete()
+
     while tpm.resultQueue.qsize():
         data = tpm.resultQueue.get()
-        get_urls.extend(save_parser(data, sql))
+        get_urls.extend(data)
     deep = deep -1
     if deep <= 0:
         return 0
@@ -102,8 +122,18 @@ def do_get_con(deep, url_list, sql):
         if url not in url_list:
             result_urls.append(url)
             url_list.append(url)
-    return do_get_con(deep, result_urls, sql)
+    return do_get_con(deep, result_urls)
 
+def info():
+    """
+    """
+    while True:
+        time.sleep(10)
+        sql = OperatorMysql()
+        touple = sql.count()
+        print 'spider %d urls....' % touple[0]
+        print
+        del sql
 
 def init(argv_list):
     """
@@ -145,11 +175,13 @@ def main():
     cur_sql = conn.cursor()
     cur_sql.execute('create database if not exists test')
     conn.select_db('test')
-    cur_sql.execute('CREATE TABLE html (id int not null auto_increment, url TINYBLOB, data MEDIUMBLOB, primary key (id))')
-    do_get_con(argv_dict['-d'], url_list, cur_sql)
+    cur_sql.execute('CREATE TABLE html2 (id int not null auto_increment, url TINYBLOB, data MEDIUMBLOB, primary key (id))')
     conn.commit()
     cur_sql.close()
     conn.close()
+    count_thread = threading.Thread(target = info)
+    count_thread.start()
+    do_get_con(argv_dict['-d'], url_list)
     logging.debug(argv_dict)
     logging.info('Finished\n')
     

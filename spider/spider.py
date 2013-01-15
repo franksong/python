@@ -45,7 +45,8 @@ def do_get_content(url_link):
     logging.debug('encodeing_info: %s', chardet.detect(content))
     #content = content.decode('gb2312').encode('utf-8')
     logging.info('Finished: %s', url_link)
-    return content
+    data = [url_link, content]
+    return data
 
 def html_text(html):
     """
@@ -70,17 +71,17 @@ def save_parser(data, sql):
     #filename = '/home/frank/mywork/html/qq.html'
     parser = GetUrls()
     try:
-        parser.feed(data)
+        parser.feed(data[1])
     except:
         logging.warning('can not parser HTML!')
     #f = open(filename, 'a')
     #f.write(data)
     #f.write('Finished')
     #f.close()
-    text = html_text(data)
-    statement = 'INSERT INTO html VALUES ("' + text +'")'
+    #text = html_text(data)
+    #statement = 'INSERT INTO html VALUES ("' + text +'")'
     try:
-        sql.execute('insert into html values (?)', [data])
+        sql.execute('insert into html values (?, ?)', data)
     except:
         logging.error('INSERT html data error!')
         print 'INSERT ERROR!!!'
@@ -148,7 +149,7 @@ def main():
     conn = sqlite3.connect(argv_dict['--dbfile'])
     conn.text_factory = str
     cur_sql = conn.cursor()
-    cur_sql.execute('CREATE TABLE html (data BLOB)')
+    cur_sql.execute('CREATE TABLE html (url TINYBLOB, data BLOB)')
     do_get_con(argv_dict['-d'], url_list, cur_sql)
     conn.commit()
     cur_sql.close()
