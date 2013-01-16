@@ -1,9 +1,9 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
 
-# Filename: spider.py
+# Filename: spider3.py
 # Author: Frank
-# Usage: python spider.py
+# Usage: python spider3.py
 # deep = 2
 
 from thread_pool import *
@@ -15,9 +15,9 @@ import sqlite3
 import string
 import logging
 import chardet
-import MySQLdb
-
-#sys.setdefaultencoding('utf-8')
+import time
+import threading
+import Queue
 
 class GetUrls(SGMLParser):
     def reset(self):
@@ -34,62 +34,82 @@ class GetUrls(SGMLParser):
         if url:
             self.urls.extend(url)
 
+class OperatorSqlite():
+    """
+    """
+    
+    def __init__(self, database = 'spider.db'):
+        """
+        
+        Arguments:
+        - `database`:
+        """
+        self.database = database
+        self.conn = sqlite3.connect(self.database)
+        self.conn.text_factory = str
+        self.cur = self.conn.cursor()
+    def __del__(self):
+        """
+        
+        Arguments:
+        - `self`:
+        """
+        self.conn.commit()
+        self.cur.close()
+        self.conn.close()
+    def create_table(self, table = 'html'):
+        """
+        
+        Arguments:
+        - `self`:
+        - `table`:
+        """
+        self.cur.execute('create table html (url TINYBLOB, info MEDIUMBLOB)')
+    def insert(self, data, table = 'html'):
+        """
+        
+        Arguments:
+        - `self`:
+        - `data`:
+        - `table`:
+        """
+        self.cur.execute('insert into html values (?, ?)', data)
+
+
 def get_urldata(url_link):
     logging.info('Begin: %s', url_link)
     try:
         fd = urllib2.urlopen(url_link)
     except:
         logging.warning('wrong url: %s', url_link)
-        return ''
+        return []
     content = fd.read()
     logging.debug('encodeing_info: %s', chardet.detect(content))
     #content = content.decode('gb2312').encode('utf-8')
     logging.info('Finished: %s', url_link)
-    data = [url_link, content]
-    return data
 
-def html_text(html):
-    """
-    
-    Arguments:
-    - `html`:
-    """
-    html = string.replace(html, '“', "'")
-    html = string.replace(html, '"', "'")
-    html = string.replace(html, '；', ";")
-    html = string.replace(html, '/', '&quot')
-    html = string.replace(html, '%', '&percent')
-    return html
-
-def save_parser(data, sql):
-    """
-    
-    Arguments:
-
-    - `data`:
-    """
-    #filename = '/home/frank/mywork/html/qq.html'
     parser = GetUrls()
     try:
-        parser.feed(data[1])
+        parser.feed(content)
     except:
         logging.warning('can not parser HTML!')
-    #f = open(filename, 'a')
-    #f.write(data)
-    #f.write('Finished')
-    #f.close()
-    #text = html_text(data)
-    #statement = 'INSERT INTO html VALUES ("' + text +'")'
+
+    data = [url_link, content]
+    lock.acquire()
+    sql = OperatorSqlite(argv_dict['--dbfile'])
     try:
-        sql.execute('insert into html values (?, ?)', data)
+        sql.insert(data)
     except:
-        logging.error('INSERT html data error!')
+        logging.error('INSERT html data error!!!')
         print 'INSERT ERROR!!!'
         pass
-    return parser.urls
+    del sql
+    lock.release()
     
+    count_queue.put(url_link)
+    return parser.urls
 
-def do_spider(deep, url_list, sql):
+def do_spider(deep, url_list):
     get_urls = []
     tpm = ThreadPoolManager(argv_dict['--thread'])
     for url in url_list:
@@ -98,7 +118,7 @@ def do_spider(deep, url_list, sql):
     tpm.wait_for_complete()
     while tpm.resultQueue.qsize():
         data = tpm.resultQueue.get()
-        get_urls.extend(save_parser(data, sql))
+        get_urls.extend(data)
     deep = deep -1
     if deep <= 0:
         return 0
@@ -107,8 +127,18 @@ def do_spider(deep, url_list, sql):
         if url not in url_list:
             result_urls.append(url)
             url_list.append(url)
-    return do_spider(deep, result_urls, sql)
+    return do_spider(deep, result_urls)
 
+def print_info():
+    """
+    """
+    while True:
+        time.sleep(10)
+        if count_queue:
+            print '已爬取 %d 个网页。。。' % count_queue.qsize()
+            print
+            continue
+        sys.exit()
 
 def init(argv_list):
     """
@@ -135,43 +165,44 @@ def init(argv_list):
     argv_dict['-d'] = int(argv_dict['-d'])
     argv_dict['-l'] = int(re.search('[0-9]', argv_dict['-l']).group(0))
     argv_dict['--thread'] = int(argv_dict['--thread'])
-    logging.basicConfig(filename = argv_dict['-f'], level = int(log_levels[argv_dict['-l']-1]))
+    logging.basicConfig(filename = argv_dict['-f'], level = \
+                            int(log_levels[argv_dict['-l']-1]))
     logging.info('Started:')
 
 def main():
     """
     """
-    global url_list
-    url_list = []
     init(argv_list)
     url_list.append(argv_dict['-u'])
     logging.debug(url_list)
-    conn = sqlite3.connect(argv_dict['--dbfile'])
-    conn.text_factory = str
-    cur_sql = conn.cursor()
-    cur_sql.execute('CREATE TABLE html (url TINYBLOB, data BLOB)')
-    do_spider(argv_dict['-d'], url_list, cur_sql)
-    conn.commit()
-    cur_sql.close()
-    conn.close()
+    sql = OperatorSqlite(argv_dict['--dbfile'])
+    sql.create_table()
+    del sql
+    count_thread = threading.Thread(target = print_info)
+    count_thread.start()
+    do_spider(argv_dict['-d'], url_list)
     logging.debug(argv_dict)
     logging.info('Finished\n')
     
 if __name__ == '__main__':
     argv_dict = {
         '-u': 'http://www.qq.com',
-        '-d': 3,
+        '-d': 2,
         '-f': 'spider.log',
         '-l': '4',
         '--thread': 10,
-        '--dbfile': '/home/frank/mywork/html/spider.db',
+        '--dbfile': 'spider.db',
         '--key': False,
         '--testself': False
         }
-    #log_levels = ['logging.CRITICAL', 'logging.ERROR', 'logging.WARNING', \
-    #                  'logging.INFO', 'logging.DEBUG']
     log_levels = ['50', '40', '30', '20', '10']
     argv_list = sys.argv[1:]
     print argv_list # test for output argv
+    print
+    url_list = []
+    count_queue = Queue.Queue(0)
+    global lock
+    lock = threading.Lock()
     main()
+    count_queue = False
     print 'Done'

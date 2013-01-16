@@ -34,7 +34,7 @@ class GetUrls(SGMLParser):
         if url:
             self.urls.extend(url)
 
-def do_get_content(url_link):
+def get_urldata(url_link):
     logging.info('Begin: %s', url_link)
     try:
         fd = urllib2.urlopen(url_link)
@@ -84,11 +84,11 @@ def save_parser(data, sql):
     return parser.urls
     
 
-def do_get_con(deep, url_list, sql):
+def do_spider(deep, url_list, sql):
     get_urls = []
     tpm = ThreadPoolManager(argv_dict['--thread'])
     for url in url_list:
-        tpm.add_job(do_get_content, url)
+        tpm.add_job(get_urldata, url)
 
     tpm.wait_for_complete()
     while tpm.resultQueue.qsize():
@@ -102,15 +102,18 @@ def do_get_con(deep, url_list, sql):
         if url not in url_list:
             result_urls.append(url)
             url_list.append(url)
-    return do_get_con(deep, result_urls, sql)
+    return do_spider(deep, result_urls, sql)
 
-def info():
+def print_info():
     """
     """
     while True:
         time.sleep(10)
-        print '已爬取 %d 个网页。。。' % count_queue.qsize()
-        print
+        if count_queue:
+            print '已爬取 %d 个网页。。。' % count_queue.qsize()
+            print
+            continue
+        sys.exit()
 
 def init(argv_list):
     """
@@ -137,24 +140,23 @@ def init(argv_list):
     argv_dict['-d'] = int(argv_dict['-d'])
     argv_dict['-l'] = int(re.search('[0-9]', argv_dict['-l']).group(0))
     argv_dict['--thread'] = int(argv_dict['--thread'])
-    logging.basicConfig(filename = argv_dict['-f'], level = int(log_levels[argv_dict['-l']-1]))
+    logging.basicConfig(filename = argv_dict['-f'], level = \
+                            int(log_levels[argv_dict['-l']-1]))
     logging.info('Started:')
 
 def main():
     """
     """
-    global url_list
-    url_list = []
     init(argv_list)
     url_list.append(argv_dict['-u'])
     logging.debug(url_list)
     conn = sqlite3.connect(argv_dict['--dbfile'])
     conn.text_factory = str
     cur_sql = conn.cursor()
-    cur_sql.execute('CREATE TABLE html (url TINYBLOB, data BLOB)')
-    count_thread = threading.Thread(target = info)
+    cur_sql.execute('CREATE TABLE html (url TINYBLOB, data MEDIUMBLOB)')
+    count_thread = threading.Thread(target = print_info)
     count_thread.start()
-    do_get_con(argv_dict['-d'], url_list, cur_sql)
+    do_spider(argv_dict['-d'], url_list, cur_sql)
     conn.commit()
     cur_sql.close()
     conn.close()
@@ -168,7 +170,7 @@ if __name__ == '__main__':
         '-f': 'spider.log',
         '-l': '4',
         '--thread': 10,
-        '--dbfile': '/home/frank/mywork/html/spider.db',
+        '--dbfile': 'spider.db',
         '--key': False,
         '--testself': False
         }
@@ -176,6 +178,8 @@ if __name__ == '__main__':
     argv_list = sys.argv[1:]
     print argv_list # test for output argv
     print
+    url_list = []
     count_queue = Queue.Queue(0)
     main()
+    count_queue = False
     print 'Done'

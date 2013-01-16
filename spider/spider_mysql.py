@@ -34,7 +34,7 @@ class GetUrls(SGMLParser):
         if url:
             self.urls.extend(url)
 
-def do_get_content(url_link):
+def get_urldata(url_link):
     logging.info('Begin: %s', url_link)
     try:
         fd = urllib2.urlopen(url_link)
@@ -84,11 +84,11 @@ def save_parser(data, sql):
     return parser.urls
     
 
-def do_get_con(deep, url_list, sql):
+def do_spider(deep, url_list, sql):
     get_urls = []
     tpm = ThreadPoolManager(argv_dict['--thread'])
     for url in url_list:
-        tpm.add_job(do_get_content, url)
+        tpm.add_job(get_urldata, url)
 
     tpm.wait_for_complete()
     while tpm.resultQueue.qsize():
@@ -102,7 +102,7 @@ def do_get_con(deep, url_list, sql):
         if url not in url_list:
             result_urls.append(url)
             url_list.append(url)
-    return do_get_con(deep, result_urls, sql)
+    return do_spider(deep, result_urls, sql)
 
 
 def init(argv_list):
@@ -146,7 +146,7 @@ def main():
     cur_sql.execute('create database if not exists test')
     conn.select_db('test')
     cur_sql.execute('CREATE TABLE html (id int not null auto_increment, url TINYBLOB, data MEDIUMBLOB, primary key (id))')
-    do_get_con(argv_dict['-d'], url_list, cur_sql)
+    do_spider(argv_dict['-d'], url_list, cur_sql)
     conn.commit()
     cur_sql.close()
     conn.close()

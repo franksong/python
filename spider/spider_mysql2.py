@@ -55,6 +55,15 @@ class OperatorMysql():
         self.conn.commit()
         self.cur.close()
         self.conn.close()
+    def create_table(self, table = 'html2'):
+        """
+        
+        Arguments:
+        - `self`:
+        - `table`:
+        """
+        self.cur.execute('CREATE TABLE html2 (id int not null auto_increment, url TINYBLOB, data MEDIUMBLOB, primary key (id))')
+
     def insert(self, data, table = 'html2'):
         """
         
@@ -75,7 +84,7 @@ class OperatorMysql():
         return self.cur.fetchone()
 
 
-def do_get_content(url_link):
+def get_urldata(url_link):
     logging.info('Begin: %s', url_link)
     try:
         fd = urllib2.urlopen(url_link)
@@ -101,14 +110,14 @@ def do_get_content(url_link):
         print 'INSERT ERROR!!!'
         pass
     del sql
-    
+    count_queue.put(url_link)
     return parser.urls
 
-def do_get_con(deep, url_list):
+def do_spider(deep, url_list):
     get_urls = []
     tpm = ThreadPoolManager(argv_dict['--thread'])
     for url in url_list:
-        tpm.add_job(do_get_content, url)
+        tpm.add_job(get_urldata, url)
     tpm.wait_for_complete()
 
     while tpm.resultQueue.qsize():
@@ -122,18 +131,18 @@ def do_get_con(deep, url_list):
         if url not in url_list:
             result_urls.append(url)
             url_list.append(url)
-    return do_get_con(deep, result_urls)
+    return do_spider(deep, result_urls)
 
-def info():
+def print_info():
     """
     """
     while True:
         time.sleep(10)
-        sql = OperatorMysql()
-        touple = sql.count()
-        print 'spider %d urls....' % touple[0]
-        print
-        del sql
+        if count_queue:
+            print 'spider %d urls....' % count_queue.qsize()
+            print
+            continue
+        sys.exit()
 
 def init(argv_list):
     """
@@ -166,22 +175,15 @@ def init(argv_list):
 def main():
     """
     """
-    global url_list
-    url_list = []
     init(argv_list)
     url_list.append(argv_dict['-u'])
     logging.debug(url_list)
-    conn = MySQLdb.connect(host = 'localhost', user = 'root', passwd = 'SONGpf')
-    cur_sql = conn.cursor()
-    cur_sql.execute('create database if not exists test')
-    conn.select_db('test')
-    cur_sql.execute('CREATE TABLE html2 (id int not null auto_increment, url TINYBLOB, data MEDIUMBLOB, primary key (id))')
-    conn.commit()
-    cur_sql.close()
-    conn.close()
-    count_thread = threading.Thread(target = info)
+    sql = OperatorMysql()
+    sql.create_table()
+    del sql
+    count_thread = threading.Thread(target = print_info)
     count_thread.start()
-    do_get_con(argv_dict['-d'], url_list)
+    do_spider(argv_dict['-d'], url_list)
     logging.debug(argv_dict)
     logging.info('Finished\n')
     
@@ -200,6 +202,9 @@ if __name__ == '__main__':
     #                  'logging.INFO', 'logging.DEBUG']
     log_levels = ['50', '40', '30', '20', '10']
     argv_list = sys.argv[1:]
+    url_list = []
+    count_queue = Queue.Queue(0)
     print argv_list # test for output argv
     main()
+    count_queue = False
     print 'Done'
