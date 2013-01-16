@@ -114,8 +114,8 @@ def do_spider(deep, url_list):
     tpm = ThreadPoolManager(argv_dict['--thread'])
     for url in url_list:
         tpm.add_job(get_urldata, url)
-
     tpm.wait_for_complete()
+
     while tpm.resultQueue.qsize():
         data = tpm.resultQueue.get()
         get_urls.extend(data)
