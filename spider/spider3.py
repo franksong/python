@@ -2,9 +2,9 @@
 #-*-coding:utf-8-*-
 
 # Filename: spider3.py
-# Author: Frank
+# Author: Frank spf.doudou@gmail.com
 # Usage: python spider3.py
-# deep = 2
+# deep = 2 (default)
 
 from thread_pool import *
 from sgmllib import SGMLParser
@@ -87,6 +87,10 @@ def get_urldata(url_link):
     logging.debug('encodeing_info: %s', chardet.detect(content))
     #content = content.decode('gb2312').encode('utf-8')
     logging.info('Finished: %s', url_link)
+
+    if argv_dict['--key']:
+        if argv_dict['--key'] not in content:
+            return []
 
     parser = GetUrls()
     try:
@@ -203,6 +207,11 @@ if __name__ == '__main__':
     count_queue = Queue.Queue(0)
     global lock
     lock = threading.Lock()
+
+    #if argv_dict['--testself']:
+    #    import doctest
+    #    doctest.testmod()
+
     main()
     count_queue = False
     print 'Done'
