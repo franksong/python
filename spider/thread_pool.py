@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#-*- coding: utf-8 -*-
 # Author: Frank
 
 import Queue, threading
@@ -48,6 +49,7 @@ class ThreadWork(Thread):
 
 class ThreadPoolManager:
     """
+    线程池管理类
     """
     
     def __init__(self, num_of_threads = 10, timeout = 1):
@@ -57,9 +59,9 @@ class ThreadPoolManager:
         self.resultQueue = Queue.Queue(0)
         self.threads = []
         self.timeout = timeout
-        self._createThreads(num_of_threads)
+        self.createThreads(num_of_threads)
 
-    def _createThreads(self, num_of_threads):
+    def createThreads(self, num_of_threads):
         """
         
         Arguments:

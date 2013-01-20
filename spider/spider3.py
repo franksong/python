@@ -20,6 +20,9 @@ import threading
 import Queue
 
 class GetUrls(SGMLParser):
+    '''
+    解析HTML文档中的url
+    '''
     def reset(self):
         self.urls = []
         SGMLParser.reset(self)
@@ -36,6 +39,7 @@ class GetUrls(SGMLParser):
 
 class OperatorSqlite():
     """
+    包装操作sqlite3的函数作为类
     """
     
     def __init__(self, database = 'spider.db'):
@@ -77,6 +81,10 @@ class OperatorSqlite():
 
 
 def get_urldata(url_link):
+    """
+    读取参数url指向的网页内容，解析出网页中的url备用，把网页内容和对应的url插入数据库
+    表中
+    """
     logging.info('Begin: %s', url_link)
     try:
         fd = urllib2.urlopen(url_link)
@@ -114,6 +122,11 @@ def get_urldata(url_link):
     return parser.urls
 
 def do_spider(deep, url_list):
+    """
+    1、递归控制爬取深度
+    2、启动线程池爬取网页
+    3、去除已经爬取过的url
+    """
     get_urls = []
     tpm = ThreadPoolManager(argv_dict['--thread'])
     for url in url_list:
@@ -135,6 +148,7 @@ def do_spider(deep, url_list):
 
 def print_info():
     """
+    定时（10s）在终端打印已经爬取网页数量
     """
     while True:
         time.sleep(10)
@@ -146,9 +160,10 @@ def print_info():
 
 def init(argv_list):
     """
-    
+    处理命令行参数列表
+    初始化日志系统
     Arguments:
-    - `argv_list`:
+    - `argv_list`:存储有所有命令行参数的列表
     """
     if len(argv_list) % 2 != 0:
         if '--testself' in argv_list:
@@ -175,6 +190,8 @@ def init(argv_list):
 
 def main():
     """
+    初始化数据库
+    启动spider主线程和打印信息线程
     """
     init(argv_list)
     url_list.append(argv_dict['-u'])
@@ -189,6 +206,10 @@ def main():
     logging.info('Finished\n')
     
 if __name__ == '__main__':
+    """
+    定义一些全局变量
+    启动main()函数
+    """
     argv_dict = {
         '-u': 'http://www.qq.com',
         '-d': 2,
