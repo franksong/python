@@ -82,6 +82,9 @@ class OperatorMysql():
         """
         self.cur.execute('select count(*) from html2')
         return self.cur.fetchone()
+    def get_urls(self, table = 'html2'):
+        self.cur.execute('select url from html2')
+        return self.cur.fetchall()
 
 
 def get_urldata(url_link):
@@ -110,7 +113,7 @@ def get_urldata(url_link):
         print 'INSERT ERROR!!!'
         pass
     del sql
-    count_queue.put(url_link)
+
     return parser.urls
 
 def do_spider(deep, url_list):
@@ -127,10 +130,11 @@ def do_spider(deep, url_list):
     if deep <= 0:
         return 0
     result_urls = []
+    sql = OperatorMysql()
     for url in get_urls:
-        if url not in url_list:
+        if (url,) not in sql.get_urls():
             result_urls.append(url)
-            url_list.append(url)
+    del sql
     return do_spider(deep, result_urls)
 
 def print_info():
@@ -138,8 +142,10 @@ def print_info():
     """
     while True:
         time.sleep(10)
-        if count_queue:
-            print 'spider %d urls....' % count_queue.qsize()
+        if count_tag:
+            sql = OperatorMysql()
+            print 'spider %d urls....' % sql.count()
+            del sql
             print
             continue
         sys.exit()
@@ -194,7 +200,7 @@ if __name__ == '__main__':
         '-f': 'spider.log',
         '-l': '4',
         '--thread': 10,
-        '--dbfile': '/home/frank/mywork/html/spider.db',
+        '--dbfile': 'spider.db',
         '--key': False,
         '--testself': False
         }
@@ -203,8 +209,8 @@ if __name__ == '__main__':
     log_levels = ['50', '40', '30', '20', '10']
     argv_list = sys.argv[1:]
     url_list = []
-    count_queue = Queue.Queue(0)
     print argv_list # test for output argv
+    count_tag = True
     main()
-    count_queue = False
+    count_tag = False
     print 'Done'
